@@ -3,9 +3,8 @@
 ## 項目描述
 1.表單層防護：
     CSRF Token：所有修改/刪除都先verify_csrf_token()，杜絕跨站請求偽造。
-        登入時有captcha.php產生圖形驗證碼；login.php/register.php 需比對回答 ￼ | 緩解暴力破解與機器灌帳號
-
-        get_csrf_token()產生32byte隨機token
+        登入時有captcha.php產生圖形驗證碼；login.php/register.php 需比對回答、緩解暴力破解與機器灌帳號。
+        get_csrf_token()產生32byte隨機token。
         各頁<form>隱藏欄位帶入，再由verify_csrf_token()驗證。
     
     Captcha：captcha.php產生圖形驗證碼，login.php/register.php需比對作答。

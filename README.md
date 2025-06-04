@@ -1,41 +1,101 @@
-# 會員系統 實作練習
+# 💼 Member System 會員管理系統
 
-## 項目描述
-1.表單層防護：
-    CSRF Token：所有修改/刪除都先verify_csrf_token()，杜絕跨站請求偽造。
-        登入時有captcha.php產生圖形驗證碼；login.php/register.php 需比對回答、緩解暴力破解與機器灌帳號。
-        get_csrf_token()產生32byte隨機token
-        各頁隱藏欄位帶入，再由verify_csrf_token()驗證。
-    
-    Captcha：captcha.php產生圖形驗證碼，login.php/register.php需比對作答。
-        緩解暴力破解／機器灌帳號。
+這是一套使用 PHP + MySQL 所開發的會員管理系統，適合應用於網站的帳號登入、會員資料管理與權限控管。此專案同時具備前後端表單驗證、資料同步機制與基本安全防護。
 
-2.伺服器回應標頭：CSP、X-frame-options。
-    secure_headers.php透過header()寫入多條策略。
-    限制外部資源、防止 Clickjacking 與降低 Referrer 洩漏；屬於「減少 XSS 影響面」的第一層保護。
+---
 
-3.認證與Session管理：
-    安全cookie旗標：(auth_check.php)
-        session_set_cookie_params() 設定 httponly、samesite=Lax 
-    Session固定攻擊防護：(login.php)
-        登入成功即 session_regenerate_id(true)
-    Idle / TTL強制登出：(auth_check.php)
-        自訂 MAX_IDLE（30 min）與 MAX_TTL（12 h）逾時即砍 Session
-    Remember-me Token：(auth_check.php)
-        雜湊驗證器 + 到期日比對，避免被竊 Cookie 後長期存取
+## 🧰 功能特色
 
-4.授權 -（Role-based access control）：以程式邏輯層控管「誰可以執行何種操作」。
-    require_login() + require_role(['admin' …]) 放在各功能頁最前面，統一透過 auth_check.php 驗證身分/角色。
+- ✅ 會員登入 / 登出
+- ✅ 帳號新增 / 編輯 / 刪除
+- ✅ 權限等級與帳號類別同步控制
+- ✅ 帳密表單前後端雙重驗證
+- ✅ 權限導向頁面防護（使用 `basename()` 搭配權限比對）
+- ✅ 操作後提示彈窗（新增 / 刪除 / 編輯）
+- ✅ 系統安全機制（CSRF、資料清洗、頁面導向防護）
 
-5.資料庫安全：
-    預備語句 - prepared statement + bind：防止SQL注入
-        查詢、更改資料庫中的資料時，皆透過預備語句取得目標資訊。
-    輸入驗證／淨化：(save_member.php)
-        filter_var($email, FILTER_VALIDATE_EMAIL) 檢查 Email；trim()、型別轉換 (intval()) 等。
+---
 
-6.機密與雜湊：
-    密碼使用雜湊／驗證：password_hash()儲存、password_verify進行比對。
+## 🛠️ 安裝與使用
 
-7.前端訊息輸出：(util.php)
-    flash_js()先將json_encode()，並做HTML Hex Encode，避免注入 Script Tag 時發生 XSS。
+### 1️⃣ 環境需求
+- PHP 7.x 或以上版本
+- MySQL 資料庫
+- 本機環境建議：XAMPP / MAMP / Docker
+
+### 2️⃣ 資料庫設定
+請先建立資料庫並執行以下 SQL：
+
+```sql
+-- 建立資料表（admin, username 等）
+CREATE TABLE admin (
+  account VARCHAR(50) PRIMARY KEY,
+  password VARCHAR(255) NOT NULL
+);
+
+CREATE TABLE username (
+  account VARCHAR(50) PRIMARY KEY,
+  username VARCHAR(50)
+);
+
+
+
+3️⃣ 專案安裝
+
+git clone https://github.com/你的帳號/member_system.git
+
+將專案放入伺服器根目錄（如 htdocs/member_system），啟動 Apache 與 MySQL。
+
+⸻
+
+🔐 安全性設計重點
+
+防護機制	實作方式
+❗ 權限檢查	使用 basename($_SERVER['PHP_SELF']) 判斷當前頁面，搭配登入權限比對
+❗ SQL 注入防止	使用 mysqli_real_escape_string()（建議改為 Prepared Statement）
+❗ CSRF 防護	可進一步搭配 Token 實作（目前已預留欄位）
+❗ 機密資訊隔離	使用 os.getenv() 讀取 .env 金鑰資訊（可再實作）
+
+
+⸻
+
+📷 專案畫面（可補充）
+
+登入畫面示意圖、會員列表畫面、權限設定畫面…
+
+你可以加入以下語法插入圖片：
+
+![登入畫面](screenshot/login.png)
+
+
+⸻
+
+📁 專案結構簡介
+
+member_system/
+├── index.php               # 首頁
+├── login.php               # 登入頁
+├── admin.php               # 會員資料管理
+├── includes/
+│   ├── db.php              # 資料庫連線設定
+│   └── header.php          # 權限導向控制
+├── css/
+│   └── style.css
+└── js/
+    └── confirm.js          # 刪除確認彈窗
+
+
+⸻
+
+🚀 未來優化項目
+	•	改用 PDO + Prepared Statements 提升安全性
+	•	使用 Bootstrap 或 Tailwind 統一 UI 樣式
+	•	整合 GitHub Actions 自動部署
+	•	前端表單驗證強化（含正規表示式）
+
+⸻
+
+🙌 作者
+
+由重光開發練習，歡迎 fork 或提出 issue 一起優化！
 

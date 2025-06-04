@@ -1,10 +1,10 @@
-# 💼 Member System 會員管理系統
+#  Member System 會員管理系統
 
 這是一套使用 PHP + MySQL 所開發的會員管理系統，適合應用於網站的帳號登入、會員資料管理與權限控管。此專案同時具備前後端表單驗證、資料同步機制與基本安全防護。
 
 ---
 
-## 🧰 功能特色
+##  功能特色
 
 - ✅ 會員登入 / 登出
 - ✅ 帳號新增 / 編輯 / 刪除
@@ -16,7 +16,7 @@
 
 ---
 
-## 🛠️ 安裝與使用
+##  安裝與使用
 
 ### 1️⃣ 環境需求
 - PHP 7.x 或以上版本
@@ -37,7 +37,7 @@ CREATE TABLE username (
   account VARCHAR(50) PRIMARY KEY,
   username VARCHAR(50)
 );
-
+```
 
 
 3️⃣ 專案安裝
@@ -55,17 +55,6 @@ git clone https://github.com/你的帳號/member_system.git
 ❗ SQL 注入防止	使用 mysqli_real_escape_string()（建議改為 Prepared Statement）
 ❗ CSRF 防護	可進一步搭配 Token 實作（目前已預留欄位）
 ❗ 機密資訊隔離	使用 os.getenv() 讀取 .env 金鑰資訊（可再實作）
-
-
-⸻
-
-📷 專案畫面（可補充）
-
-登入畫面示意圖、會員列表畫面、權限設定畫面…
-
-你可以加入以下語法插入圖片：
-
-![登入畫面](screenshot/login.png)
 
 
 ⸻

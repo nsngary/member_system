@@ -40,26 +40,25 @@ CREATE TABLE username (
 ```
 
 
-3️⃣ 專案安裝
+### 3️⃣ 專案安裝
 
-git clone https://github.com/你的帳號/member_system.git
+複製以下網址：https://github.com/你的帳號/member_system.git
 
 將專案放入伺服器根目錄（如 htdocs/member_system），啟動 Apache 與 MySQL。
 
-⸻
 
-🔐 安全性設計重點
-<table>
-防護機制	實作方式
-❗ 權限檢查	使用 basename($_SERVER['PHP_SELF']) 判斷當前頁面，搭配登入權限比對
-❗ SQL 注入防止	使用 mysqli_real_escape_string()（建議改為 Prepared Statement）
-❗ CSRF 防護	可進一步搭配 Token 實作（目前已預留欄位）
-❗ 機密資訊隔離	使用 os.getenv() 讀取 .env 金鑰資訊（可再實作）
-</table>
+## 🔐 安全性設計重點
 
-⸻
+防護機制 - 實作方式
+- 權限檢查	使用 basename($_SERVER['PHP_SELF']) 判斷當前頁面，搭配登入權限比對
+- SQL 注入防止	使用 mysqli_real_escape_string()（建議改為 Prepared Statement）
+- CSRF 防護	可進一步搭配 Token 實作（目前已預留欄位）
+- 機密資訊隔離	使用 os.getenv() 讀取 .env 金鑰資訊（可再實作）
 
-📁 專案結構簡介
+
+
+
+## 📁 專案結構簡介
 ```php
 member_system/
 ├── index.php               # 首頁
@@ -74,17 +73,17 @@ member_system/
     └── confirm.js          # 刪除確認彈窗
 ```
 
-⸻
 
-🚀 未來優化項目
-	•	改用 PDO + Prepared Statements 提升安全性
-	•	使用 Bootstrap 或 Tailwind 統一 UI 樣式
-	•	整合 GitHub Actions 自動部署
-	•	前端表單驗證強化（含正規表示式）
 
-⸻
+## 🚀 未來優化項目
+- 改用 PDO + Prepared Statements 提升安全性
+- 使用 Bootstrap 或 Tailwind 統一 UI 樣式
+- 整合 GitHub Actions 自動部署
+- 前端表單驗證強化（含正規表示式）
 
-🙌 作者
+
+
+## 🙌 作者
 
 由重光開發練習，歡迎 fork 或提出 issue 一起優化！
 

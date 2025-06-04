@@ -1,0 +1,45 @@
+Toast
+.toast{
+  position:fixed; right:20px; bottom:20px;
+  padding:.75em 1.25em; border-radius:6px;
+  font-weight:600; color:#fff; opacity:0;
+  animation:fade-in-out 3s forwards;
+}
+.toast-success{background:#28a745;}
+.toast-error  {background:#dc3545;}
+
+@keyframes fade-in-out{
+  0%{opacity:0; transform:translateY(20px);}
+ 10%{opacity:1; transform:none;}
+ 90%{opacity:1;}
+100%{opacity:0; transform:translateY(20px);}
+}
+
+/* Table & Button 簡易統一 */
+.table{border-collapse:collapse;width:100%;}
+.table th,.table td{border:1px solid #ccc;padding:6px 10px;text-align:center;}
+/* .btn{display:inline-block;padding:10px ;border-radius:4px;background:#6c757d;color:#fff;text-decoration:none;} */
+.btn{
+  font-family:none;
+  background-color: #6c757d;
+  display:inline-flex;              /* 讓 a / button 都走 flex 中央對齊 */
+  align-items:center;
+  justify-content:center;
+  padding:.35em .9em;               /* 微調上/下內距 */
+  border:1px solid transparent;     /* 統一外框厚度 */
+  border-radius:4px;
+  font-size:14px;
+  line-height:1;
+  text-decoration:none;
+  cursor:pointer;
+}
+a:link, a:visited, a:hover, a:active{
+  color: #000;
+}
+/* .btn:hover{background:#5a6268;}
+.btn-danger{background:#6c757d;}
+.btn-danger:hover{background:#5a6268;}
+.form input,.form select{margin:.2em .4em;}
+.btn-logout { background: #3e8acc;}
+.btn-logout:hover { background: #7fb4dd;} */
+

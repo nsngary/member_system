@@ -6,13 +6,13 @@
 
 ##  功能特色
 
-- ✅ 會員登入 / 登出
-- ✅ 帳號新增 / 編輯 / 刪除
-- ✅ 權限等級與帳號類別同步控制
-- ✅ 帳密表單前後端雙重驗證
-- ✅ 權限導向頁面防護（使用 `basename()` 搭配權限比對）
-- ✅ 操作後提示彈窗（新增 / 刪除 / 編輯）
-- ✅ 系統安全機制（CSRF、資料清洗、頁面導向防護）
+-  會員登入 / 登出
+-  帳號新增 / 編輯 / 刪除
+-  權限等級與帳號類別同步控制
+-  帳密表單前後端雙重驗證
+-  權限導向頁面防護（使用 `basename()` 搭配權限比對）
+-  操作後提示彈窗（新增 / 刪除 / 編輯）
+-  系統安全機制（CSRF、資料清洗、頁面導向防護）
 
 ---
 
@@ -49,18 +49,18 @@ git clone https://github.com/你的帳號/member_system.git
 ⸻
 
 🔐 安全性設計重點
-
+<table>
 防護機制	實作方式
 ❗ 權限檢查	使用 basename($_SERVER['PHP_SELF']) 判斷當前頁面，搭配登入權限比對
 ❗ SQL 注入防止	使用 mysqli_real_escape_string()（建議改為 Prepared Statement）
 ❗ CSRF 防護	可進一步搭配 Token 實作（目前已預留欄位）
 ❗ 機密資訊隔離	使用 os.getenv() 讀取 .env 金鑰資訊（可再實作）
-
+</table>
 
 ⸻
 
 📁 專案結構簡介
-
+```php
 member_system/
 ├── index.php               # 首頁
 ├── login.php               # 登入頁
@@ -72,7 +72,7 @@ member_system/
 │   └── style.css
 └── js/
     └── confirm.js          # 刪除確認彈窗
-
+```
 
 ⸻
 

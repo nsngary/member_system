@@ -42,7 +42,7 @@ CREATE TABLE username (
 
 ### 3️⃣ 專案安裝
 
-複製以下網址：https://github.com/你的帳號/member_system.git
+複製以下網址：https://github.com/nsngary/member_system.git
 
 將專案放入伺服器根目錄（如 htdocs/member_system），啟動 Apache 與 MySQL。
 

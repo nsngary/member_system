@@ -18,12 +18,12 @@
 
 ##  安裝與使用
 
-### 1️ 環境需求
+### 1 環境需求
 - PHP 7.x 或以上版本
 - MySQL 資料庫
 - 本機環境建議：XAMPP / MAMP / Docker
 
-### 2️ 資料庫設定
+### 2 資料庫設定
 請先建立資料庫並執行以下 SQL：
 
 ```sql
@@ -40,7 +40,7 @@ CREATE TABLE username (
 ```
 
 
-### 3️ 專案安裝
+### 3 專案安裝
 
 複製以下網址：https://github.com/nsngary/member_system.git
 

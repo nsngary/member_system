@@ -1,0 +1,64 @@
+{
+  "baseUrl": "https://dich-fashion.webflow.io",
+  "crawledAt": "2025-06-30T03:11:55.817Z",
+  "totalPages": 7,
+  "totalAnimations": 345,
+  "pages": [
+    {
+      "url": "https://dich-fashion.webflow.io/",
+      "title": "DICH™ Fashion | A New Era of Futuristic Fashion",
+      "linksCount": 29,
+      "scriptsCount": 43,
+      "stylesheetsCount": 2,
+      "animationsCount": 35
+    },
+    {
+      "url": "https://dich-fashion.webflow.io/#",
+      "title": "DICH™ Fashion | A New Era of Futuristic Fashion",
+      "linksCount": 29,
+      "scriptsCount": 43,
+      "stylesheetsCount": 2,
+      "animationsCount": 35
+    },
+    {
+      "url": "https://dich-fashion.webflow.io/oraniths",
+      "title": "Oraniths",
+      "linksCount": 21,
+      "scriptsCount": 35,
+      "stylesheetsCount": 1,
+      "animationsCount": 33
+    },
+    {
+      "url": "https://dich-fashion.webflow.io/anturax",
+      "title": "Anturax",
+      "linksCount": 21,
+      "scriptsCount": 35,
+      "stylesheetsCount": 1,
+      "animationsCount": 33
+    },
+    {
+      "url": "https://dich-fashion.webflow.io/#section-collections",
+      "title": "DICH™ Fashion | A New Era of Futuristic Fashion",
+      "linksCount": 29,
+      "scriptsCount": 43,
+      "stylesheetsCount": 2,
+      "animationsCount": 35
+    },
+    {
+      "url": "https://dich-fashion.webflow.io/404",
+      "title": "error // 404 // page",
+      "linksCount": 1,
+      "scriptsCount": 26,
+      "stylesheetsCount": 1,
+      "animationsCount": 9
+    },
+    {
+      "url": "https://dich-fashion.webflow.io/#section-index",
+      "title": "DICH™ Fashion | A New Era of Futuristic Fashion",
+      "linksCount": 29,
+      "scriptsCount": 43,
+      "stylesheetsCount": 2,
+      "animationsCount": 35
+    }
+  ]
+}

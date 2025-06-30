@@ -1,0 +1,33 @@
+{
+  "totalAnimations": 345,
+  "assetTypes": {
+    "screenshots": 690,
+    "videos": 345
+  },
+  "byTech": {
+    "Webflow IX2": 138,
+    "CSS keyframes": 77,
+    "GSAP": 78,
+    "JavaScript 自訂": 52
+  },
+  "byTrigger": {
+    "loading": 89,
+    "unknown": 122,
+    "scroll": 4,
+    "script": 130
+  },
+  "byPage": {
+    "https://dich-fashion.webflow.io/": 57,
+    "https://dich-fashion.webflow.io/#": 57,
+    "https://dich-fashion.webflow.io/oraniths": 50,
+    "https://dich-fashion.webflow.io/anturax": 50,
+    "https://dich-fashion.webflow.io/#section-collections": 57,
+    "https://dich-fashion.webflow.io/404": 17,
+    "https://dich-fashion.webflow.io/#section-index": 57
+  },
+  "estimatedStorage": {
+    "screenshots": "345.0MB",
+    "videos": "690.0MB",
+    "total": "862.5MB"
+  }
+}

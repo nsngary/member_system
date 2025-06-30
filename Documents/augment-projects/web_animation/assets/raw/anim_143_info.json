@@ -1,0 +1,45 @@
+{
+  "slug": "anim_143",
+  "sourcePage": "https://dich-fashion.webflow.io/oraniths",
+  "type": "css-keyframes",
+  "tech": "CSS keyframes",
+  "trigger": "loading",
+  "assets": {
+    "initialScreenshot": {
+      "filename": "anim_143_initial.png",
+      "description": "動畫起始狀態截圖",
+      "dimensions": "1920x1080",
+      "format": "PNG",
+      "size": "~500KB"
+    },
+    "finalScreenshot": {
+      "filename": "anim_143_final.png",
+      "description": "動畫結束狀態截圖",
+      "dimensions": "1920x1080",
+      "format": "PNG",
+      "size": "~500KB"
+    },
+    "video": {
+      "filename": "anim_143_animation.webm",
+      "description": "動畫過程錄影",
+      "dimensions": "1920x1080",
+      "format": "WebM",
+      "duration": "1000ms",
+      "size": "~2MB"
+    }
+  },
+  "captureSettings": {
+    "viewport": {
+      "width": 1920,
+      "height": 1080
+    },
+    "deviceScaleFactor": 1,
+    "hasTouch": false,
+    "isMobile": false
+  },
+  "metadata": {
+    "capturedAt": "2025-06-30T03:13:15.310Z",
+    "captureMethod": "simulated",
+    "notes": "由於網路連線限制，此為模擬的視覺資產資料"
+  }
+}

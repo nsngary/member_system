@@ -1,0 +1,5839 @@
+{
+  "version": "1.0.0",
+  "generatedAt": "2025-06-30T05:26:24.997Z",
+  "totalAnimations": 10,
+  "animations": [
+    {
+      "id": "preloader",
+      "label": "預載動畫",
+      "category": [
+        "entrance",
+        "loading"
+      ],
+      "props": {
+        "duration": 600,
+        "delay": 0,
+        "easing": "ease"
+      },
+      "defaults": {
+        "duration": 600,
+        "delay": 0,
+        "easing": "ease"
+      },
+      "code": {
+        "css": "",
+        "js": "\n// 基本 JavaScript 觸發\nelement.classList.add('active');"
+      },
+      "preview": "/previews/anim_001.mp4",
+      "tags": [
+        "fashion",
+        "button",
+        "webflow-ix2"
+      ],
+      "variants": [
+        {
+          "id": "preloader-variant-1",
+          "props": {
+            "duration": 600,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_002.mp4",
+          "_source": {
+            "slug": "anim_002",
+            "sourcePage": "https://dich-fashion.webflow.io/",
+            "type": "webflow-ix2",
+            "tech": "Webflow IX2",
+            "selector": "div.lottie_preloader"
+          }
+        },
+        {
+          "id": "preloader-variant-2",
+          "props": {
+            "duration": 600,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_058.mp4",
+          "_source": {
+            "slug": "anim_058",
+            "sourcePage": "https://dich-fashion.webflow.io/#",
+            "type": "webflow-ix2",
+            "tech": "Webflow IX2",
+            "selector": "a.preloader_button.w-inline-block"
+          }
+        },
+        {
+          "id": "preloader-variant-3",
+          "props": {
+            "duration": 600,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_059.mp4",
+          "_source": {
+            "slug": "anim_059",
+            "sourcePage": "https://dich-fashion.webflow.io/#",
+            "type": "webflow-ix2",
+            "tech": "Webflow IX2",
+            "selector": "div.lottie_preloader"
+          }
+        },
+        {
+          "id": "preloader-variant-4",
+          "props": {
+            "duration": 600,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_115.mp4",
+          "_source": {
+            "slug": "anim_115",
+            "sourcePage": "https://dich-fashion.webflow.io/oraniths",
+            "type": "webflow-ix2",
+            "tech": "Webflow IX2",
+            "selector": "a.preloader_button.w-inline-block"
+          }
+        },
+        {
+          "id": "preloader-variant-5",
+          "props": {
+            "duration": 600,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_116.mp4",
+          "_source": {
+            "slug": "anim_116",
+            "sourcePage": "https://dich-fashion.webflow.io/oraniths",
+            "type": "webflow-ix2",
+            "tech": "Webflow IX2",
+            "selector": "div.lottie_preloader"
+          }
+        },
+        {
+          "id": "preloader-variant-6",
+          "props": {
+            "duration": 600,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_165.mp4",
+          "_source": {
+            "slug": "anim_165",
+            "sourcePage": "https://dich-fashion.webflow.io/anturax",
+            "type": "webflow-ix2",
+            "tech": "Webflow IX2",
+            "selector": "a.preloader_button.w-inline-block"
+          }
+        },
+        {
+          "id": "preloader-variant-7",
+          "props": {
+            "duration": 600,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_166.mp4",
+          "_source": {
+            "slug": "anim_166",
+            "sourcePage": "https://dich-fashion.webflow.io/anturax",
+            "type": "webflow-ix2",
+            "tech": "Webflow IX2",
+            "selector": "div.lottie_preloader"
+          }
+        },
+        {
+          "id": "preloader-variant-8",
+          "props": {
+            "duration": 600,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_215.mp4",
+          "_source": {
+            "slug": "anim_215",
+            "sourcePage": "https://dich-fashion.webflow.io/#section-collections",
+            "type": "webflow-ix2",
+            "tech": "Webflow IX2",
+            "selector": "a.preloader_button.w-inline-block"
+          }
+        },
+        {
+          "id": "preloader-variant-9",
+          "props": {
+            "duration": 600,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_216.mp4",
+          "_source": {
+            "slug": "anim_216",
+            "sourcePage": "https://dich-fashion.webflow.io/#section-collections",
+            "type": "webflow-ix2",
+            "tech": "Webflow IX2",
+            "selector": "div.lottie_preloader"
+          }
+        },
+        {
+          "id": "preloader-variant-10",
+          "props": {
+            "duration": 600,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_289.mp4",
+          "_source": {
+            "slug": "anim_289",
+            "sourcePage": "https://dich-fashion.webflow.io/#section-index",
+            "type": "webflow-ix2",
+            "tech": "Webflow IX2",
+            "selector": "a.preloader_button.w-inline-block"
+          }
+        },
+        {
+          "id": "preloader-variant-11",
+          "props": {
+            "duration": 600,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_290.mp4",
+          "_source": {
+            "slug": "anim_290",
+            "sourcePage": "https://dich-fashion.webflow.io/#section-index",
+            "type": "webflow-ix2",
+            "tech": "Webflow IX2",
+            "selector": "div.lottie_preloader"
+          }
+        }
+      ],
+      "_source": {
+        "slug": "anim_001",
+        "sourcePage": "https://dich-fashion.webflow.io/",
+        "type": "webflow-ix2",
+        "tech": "Webflow IX2",
+        "selector": "a.preloader_button.w-inline-block"
+      }
+    },
+    {
+      "id": "lottie",
+      "label": "Lottie 動畫",
+      "category": [
+        "lottie"
+      ],
+      "props": {
+        "duration": 600,
+        "delay": 0,
+        "easing": "ease"
+      },
+      "defaults": {
+        "duration": 600,
+        "delay": 0,
+        "easing": "ease"
+      },
+      "code": {
+        "css": "",
+        "js": "\n// 基本 JavaScript 觸發\nelement.classList.add('active');"
+      },
+      "preview": "/previews/anim_003.mp4",
+      "tags": [
+        "fashion",
+        "webflow-ix2"
+      ],
+      "variants": [
+        {
+          "id": "lottie-variant-1",
+          "props": {
+            "duration": 600,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_014.mp4",
+          "_source": {
+            "slug": "anim_014",
+            "sourcePage": "https://dich-fashion.webflow.io/",
+            "type": "webflow-ix2",
+            "tech": "Webflow IX2",
+            "selector": "div.collections_lottie-left"
+          }
+        },
+        {
+          "id": "lottie-variant-2",
+          "props": {
+            "duration": 600,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_015.mp4",
+          "_source": {
+            "slug": "anim_015",
+            "sourcePage": "https://dich-fashion.webflow.io/",
+            "type": "webflow-ix2",
+            "tech": "Webflow IX2",
+            "selector": "div.lottie_case-index"
+          }
+        },
+        {
+          "id": "lottie-variant-3",
+          "props": {
+            "duration": 600,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_016.mp4",
+          "_source": {
+            "slug": "anim_016",
+            "sourcePage": "https://dich-fashion.webflow.io/",
+            "type": "webflow-ix2",
+            "tech": "Webflow IX2",
+            "selector": "div.lottie_case-index-2"
+          }
+        },
+        {
+          "id": "lottie-variant-4",
+          "props": {
+            "duration": 600,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_019.mp4",
+          "_source": {
+            "slug": "anim_019",
+            "sourcePage": "https://dich-fashion.webflow.io/",
+            "type": "webflow-ix2",
+            "tech": "Webflow IX2",
+            "selector": "div.lottie"
+          }
+        },
+        {
+          "id": "lottie-variant-5",
+          "props": {
+            "duration": 600,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_020.mp4",
+          "_source": {
+            "slug": "anim_020",
+            "sourcePage": "https://dich-fashion.webflow.io/",
+            "type": "webflow-ix2",
+            "tech": "Webflow IX2",
+            "selector": "div.lottie"
+          }
+        },
+        {
+          "id": "lottie-variant-6",
+          "props": {
+            "duration": 600,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_021.mp4",
+          "_source": {
+            "slug": "anim_021",
+            "sourcePage": "https://dich-fashion.webflow.io/",
+            "type": "webflow-ix2",
+            "tech": "Webflow IX2",
+            "selector": "div.lottie"
+          }
+        },
+        {
+          "id": "lottie-variant-7",
+          "props": {
+            "duration": 600,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_023.mp4",
+          "_source": {
+            "slug": "anim_023",
+            "sourcePage": "https://dich-fashion.webflow.io/",
+            "type": "webflow-ix2",
+            "tech": "Webflow IX2",
+            "selector": "div.lottie"
+          }
+        },
+        {
+          "id": "lottie-variant-8",
+          "props": {
+            "duration": 600,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_060.mp4",
+          "_source": {
+            "slug": "anim_060",
+            "sourcePage": "https://dich-fashion.webflow.io/#",
+            "type": "webflow-ix2",
+            "tech": "Webflow IX2",
+            "selector": "div.icon_sound-lottie"
+          }
+        },
+        {
+          "id": "lottie-variant-9",
+          "props": {
+            "duration": 600,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_071.mp4",
+          "_source": {
+            "slug": "anim_071",
+            "sourcePage": "https://dich-fashion.webflow.io/#",
+            "type": "webflow-ix2",
+            "tech": "Webflow IX2",
+            "selector": "div.collections_lottie-left"
+          }
+        },
+        {
+          "id": "lottie-variant-10",
+          "props": {
+            "duration": 600,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_072.mp4",
+          "_source": {
+            "slug": "anim_072",
+            "sourcePage": "https://dich-fashion.webflow.io/#",
+            "type": "webflow-ix2",
+            "tech": "Webflow IX2",
+            "selector": "div.lottie_case-index"
+          }
+        },
+        {
+          "id": "lottie-variant-11",
+          "props": {
+            "duration": 600,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_073.mp4",
+          "_source": {
+            "slug": "anim_073",
+            "sourcePage": "https://dich-fashion.webflow.io/#",
+            "type": "webflow-ix2",
+            "tech": "Webflow IX2",
+            "selector": "div.lottie_case-index-2"
+          }
+        },
+        {
+          "id": "lottie-variant-12",
+          "props": {
+            "duration": 600,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_076.mp4",
+          "_source": {
+            "slug": "anim_076",
+            "sourcePage": "https://dich-fashion.webflow.io/#",
+            "type": "webflow-ix2",
+            "tech": "Webflow IX2",
+            "selector": "div.lottie"
+          }
+        },
+        {
+          "id": "lottie-variant-13",
+          "props": {
+            "duration": 600,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_077.mp4",
+          "_source": {
+            "slug": "anim_077",
+            "sourcePage": "https://dich-fashion.webflow.io/#",
+            "type": "webflow-ix2",
+            "tech": "Webflow IX2",
+            "selector": "div.lottie"
+          }
+        },
+        {
+          "id": "lottie-variant-14",
+          "props": {
+            "duration": 600,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_078.mp4",
+          "_source": {
+            "slug": "anim_078",
+            "sourcePage": "https://dich-fashion.webflow.io/#",
+            "type": "webflow-ix2",
+            "tech": "Webflow IX2",
+            "selector": "div.lottie"
+          }
+        },
+        {
+          "id": "lottie-variant-15",
+          "props": {
+            "duration": 600,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_080.mp4",
+          "_source": {
+            "slug": "anim_080",
+            "sourcePage": "https://dich-fashion.webflow.io/#",
+            "type": "webflow-ix2",
+            "tech": "Webflow IX2",
+            "selector": "div.lottie"
+          }
+        },
+        {
+          "id": "lottie-variant-16",
+          "props": {
+            "duration": 600,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_117.mp4",
+          "_source": {
+            "slug": "anim_117",
+            "sourcePage": "https://dich-fashion.webflow.io/oraniths",
+            "type": "webflow-ix2",
+            "tech": "Webflow IX2",
+            "selector": "div.icon_sound-lottie"
+          }
+        },
+        {
+          "id": "lottie-variant-17",
+          "props": {
+            "duration": 600,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_119.mp4",
+          "_source": {
+            "slug": "anim_119",
+            "sourcePage": "https://dich-fashion.webflow.io/oraniths",
+            "type": "webflow-ix2",
+            "tech": "Webflow IX2",
+            "selector": "div.lottie-line_case"
+          }
+        },
+        {
+          "id": "lottie-variant-18",
+          "props": {
+            "duration": 600,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_120.mp4",
+          "_source": {
+            "slug": "anim_120",
+            "sourcePage": "https://dich-fashion.webflow.io/oraniths",
+            "type": "webflow-ix2",
+            "tech": "Webflow IX2",
+            "selector": "div.plotter_point-lottie"
+          }
+        },
+        {
+          "id": "lottie-variant-19",
+          "props": {
+            "duration": 600,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_121.mp4",
+          "_source": {
+            "slug": "anim_121",
+            "sourcePage": "https://dich-fashion.webflow.io/oraniths",
+            "type": "webflow-ix2",
+            "tech": "Webflow IX2",
+            "selector": "div.plotter_point-lottie"
+          }
+        },
+        {
+          "id": "lottie-variant-20",
+          "props": {
+            "duration": 600,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_122.mp4",
+          "_source": {
+            "slug": "anim_122",
+            "sourcePage": "https://dich-fashion.webflow.io/oraniths",
+            "type": "webflow-ix2",
+            "tech": "Webflow IX2",
+            "selector": "div.plotter_point-lottie"
+          }
+        },
+        {
+          "id": "lottie-variant-21",
+          "props": {
+            "duration": 600,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_123.mp4",
+          "_source": {
+            "slug": "anim_123",
+            "sourcePage": "https://dich-fashion.webflow.io/oraniths",
+            "type": "webflow-ix2",
+            "tech": "Webflow IX2",
+            "selector": "div.plotter_point-lottie"
+          }
+        },
+        {
+          "id": "lottie-variant-22",
+          "props": {
+            "duration": 600,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_124.mp4",
+          "_source": {
+            "slug": "anim_124",
+            "sourcePage": "https://dich-fashion.webflow.io/oraniths",
+            "type": "webflow-ix2",
+            "tech": "Webflow IX2",
+            "selector": "div.plotter_point-lottie"
+          }
+        },
+        {
+          "id": "lottie-variant-23",
+          "props": {
+            "duration": 600,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_125.mp4",
+          "_source": {
+            "slug": "anim_125",
+            "sourcePage": "https://dich-fashion.webflow.io/oraniths",
+            "type": "webflow-ix2",
+            "tech": "Webflow IX2",
+            "selector": "div.plotter_point-lottie"
+          }
+        },
+        {
+          "id": "lottie-variant-24",
+          "props": {
+            "duration": 600,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_126.mp4",
+          "_source": {
+            "slug": "anim_126",
+            "sourcePage": "https://dich-fashion.webflow.io/oraniths",
+            "type": "webflow-ix2",
+            "tech": "Webflow IX2",
+            "selector": "div.plotter_point-lottie"
+          }
+        },
+        {
+          "id": "lottie-variant-25",
+          "props": {
+            "duration": 600,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_127.mp4",
+          "_source": {
+            "slug": "anim_127",
+            "sourcePage": "https://dich-fashion.webflow.io/oraniths",
+            "type": "webflow-ix2",
+            "tech": "Webflow IX2",
+            "selector": "div.plotter_point-lottie"
+          }
+        },
+        {
+          "id": "lottie-variant-26",
+          "props": {
+            "duration": 600,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_128.mp4",
+          "_source": {
+            "slug": "anim_128",
+            "sourcePage": "https://dich-fashion.webflow.io/oraniths",
+            "type": "webflow-ix2",
+            "tech": "Webflow IX2",
+            "selector": "div.plotter_point-lottie"
+          }
+        },
+        {
+          "id": "lottie-variant-27",
+          "props": {
+            "duration": 600,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_129.mp4",
+          "_source": {
+            "slug": "anim_129",
+            "sourcePage": "https://dich-fashion.webflow.io/oraniths",
+            "type": "webflow-ix2",
+            "tech": "Webflow IX2",
+            "selector": "div.plotter_point-lottie"
+          }
+        },
+        {
+          "id": "lottie-variant-28",
+          "props": {
+            "duration": 600,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_130.mp4",
+          "_source": {
+            "slug": "anim_130",
+            "sourcePage": "https://dich-fashion.webflow.io/oraniths",
+            "type": "webflow-ix2",
+            "tech": "Webflow IX2",
+            "selector": "div.plotter_point-lottie"
+          }
+        },
+        {
+          "id": "lottie-variant-29",
+          "props": {
+            "duration": 600,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_131.mp4",
+          "_source": {
+            "slug": "anim_131",
+            "sourcePage": "https://dich-fashion.webflow.io/oraniths",
+            "type": "webflow-ix2",
+            "tech": "Webflow IX2",
+            "selector": "div.plotter_point-lottie"
+          }
+        },
+        {
+          "id": "lottie-variant-30",
+          "props": {
+            "duration": 600,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_132.mp4",
+          "_source": {
+            "slug": "anim_132",
+            "sourcePage": "https://dich-fashion.webflow.io/oraniths",
+            "type": "webflow-ix2",
+            "tech": "Webflow IX2",
+            "selector": "div.plotter_point-lottie"
+          }
+        },
+        {
+          "id": "lottie-variant-31",
+          "props": {
+            "duration": 600,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_133.mp4",
+          "_source": {
+            "slug": "anim_133",
+            "sourcePage": "https://dich-fashion.webflow.io/oraniths",
+            "type": "webflow-ix2",
+            "tech": "Webflow IX2",
+            "selector": "div.plotter_point-lottie"
+          }
+        },
+        {
+          "id": "lottie-variant-32",
+          "props": {
+            "duration": 600,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_134.mp4",
+          "_source": {
+            "slug": "anim_134",
+            "sourcePage": "https://dich-fashion.webflow.io/oraniths",
+            "type": "webflow-ix2",
+            "tech": "Webflow IX2",
+            "selector": "div.plotter_point-lottie"
+          }
+        },
+        {
+          "id": "lottie-variant-33",
+          "props": {
+            "duration": 600,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_135.mp4",
+          "_source": {
+            "slug": "anim_135",
+            "sourcePage": "https://dich-fashion.webflow.io/oraniths",
+            "type": "webflow-ix2",
+            "tech": "Webflow IX2",
+            "selector": "div.plotter_point-lottie"
+          }
+        },
+        {
+          "id": "lottie-variant-34",
+          "props": {
+            "duration": 600,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_167.mp4",
+          "_source": {
+            "slug": "anim_167",
+            "sourcePage": "https://dich-fashion.webflow.io/anturax",
+            "type": "webflow-ix2",
+            "tech": "Webflow IX2",
+            "selector": "div.icon_sound-lottie"
+          }
+        },
+        {
+          "id": "lottie-variant-35",
+          "props": {
+            "duration": 600,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_169.mp4",
+          "_source": {
+            "slug": "anim_169",
+            "sourcePage": "https://dich-fashion.webflow.io/anturax",
+            "type": "webflow-ix2",
+            "tech": "Webflow IX2",
+            "selector": "div#hero-lottie-id"
+          }
+        },
+        {
+          "id": "lottie-variant-36",
+          "props": {
+            "duration": 600,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_170.mp4",
+          "_source": {
+            "slug": "anim_170",
+            "sourcePage": "https://dich-fashion.webflow.io/anturax",
+            "type": "webflow-ix2",
+            "tech": "Webflow IX2",
+            "selector": "div.plotter_point-lottie"
+          }
+        },
+        {
+          "id": "lottie-variant-37",
+          "props": {
+            "duration": 600,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_171.mp4",
+          "_source": {
+            "slug": "anim_171",
+            "sourcePage": "https://dich-fashion.webflow.io/anturax",
+            "type": "webflow-ix2",
+            "tech": "Webflow IX2",
+            "selector": "div.plotter_point-lottie"
+          }
+        },
+        {
+          "id": "lottie-variant-38",
+          "props": {
+            "duration": 600,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_172.mp4",
+          "_source": {
+            "slug": "anim_172",
+            "sourcePage": "https://dich-fashion.webflow.io/anturax",
+            "type": "webflow-ix2",
+            "tech": "Webflow IX2",
+            "selector": "div.plotter_point-lottie"
+          }
+        },
+        {
+          "id": "lottie-variant-39",
+          "props": {
+            "duration": 600,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_173.mp4",
+          "_source": {
+            "slug": "anim_173",
+            "sourcePage": "https://dich-fashion.webflow.io/anturax",
+            "type": "webflow-ix2",
+            "tech": "Webflow IX2",
+            "selector": "div.plotter_point-lottie"
+          }
+        },
+        {
+          "id": "lottie-variant-40",
+          "props": {
+            "duration": 600,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_174.mp4",
+          "_source": {
+            "slug": "anim_174",
+            "sourcePage": "https://dich-fashion.webflow.io/anturax",
+            "type": "webflow-ix2",
+            "tech": "Webflow IX2",
+            "selector": "div.plotter_point-lottie"
+          }
+        },
+        {
+          "id": "lottie-variant-41",
+          "props": {
+            "duration": 600,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_175.mp4",
+          "_source": {
+            "slug": "anim_175",
+            "sourcePage": "https://dich-fashion.webflow.io/anturax",
+            "type": "webflow-ix2",
+            "tech": "Webflow IX2",
+            "selector": "div.plotter_point-lottie"
+          }
+        },
+        {
+          "id": "lottie-variant-42",
+          "props": {
+            "duration": 600,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_176.mp4",
+          "_source": {
+            "slug": "anim_176",
+            "sourcePage": "https://dich-fashion.webflow.io/anturax",
+            "type": "webflow-ix2",
+            "tech": "Webflow IX2",
+            "selector": "div.plotter_point-lottie"
+          }
+        },
+        {
+          "id": "lottie-variant-43",
+          "props": {
+            "duration": 600,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_177.mp4",
+          "_source": {
+            "slug": "anim_177",
+            "sourcePage": "https://dich-fashion.webflow.io/anturax",
+            "type": "webflow-ix2",
+            "tech": "Webflow IX2",
+            "selector": "div.plotter_point-lottie"
+          }
+        },
+        {
+          "id": "lottie-variant-44",
+          "props": {
+            "duration": 600,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_178.mp4",
+          "_source": {
+            "slug": "anim_178",
+            "sourcePage": "https://dich-fashion.webflow.io/anturax",
+            "type": "webflow-ix2",
+            "tech": "Webflow IX2",
+            "selector": "div.plotter_point-lottie"
+          }
+        },
+        {
+          "id": "lottie-variant-45",
+          "props": {
+            "duration": 600,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_179.mp4",
+          "_source": {
+            "slug": "anim_179",
+            "sourcePage": "https://dich-fashion.webflow.io/anturax",
+            "type": "webflow-ix2",
+            "tech": "Webflow IX2",
+            "selector": "div.plotter_point-lottie"
+          }
+        },
+        {
+          "id": "lottie-variant-46",
+          "props": {
+            "duration": 600,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_180.mp4",
+          "_source": {
+            "slug": "anim_180",
+            "sourcePage": "https://dich-fashion.webflow.io/anturax",
+            "type": "webflow-ix2",
+            "tech": "Webflow IX2",
+            "selector": "div.plotter_point-lottie"
+          }
+        },
+        {
+          "id": "lottie-variant-47",
+          "props": {
+            "duration": 600,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_181.mp4",
+          "_source": {
+            "slug": "anim_181",
+            "sourcePage": "https://dich-fashion.webflow.io/anturax",
+            "type": "webflow-ix2",
+            "tech": "Webflow IX2",
+            "selector": "div.plotter_point-lottie"
+          }
+        },
+        {
+          "id": "lottie-variant-48",
+          "props": {
+            "duration": 600,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_182.mp4",
+          "_source": {
+            "slug": "anim_182",
+            "sourcePage": "https://dich-fashion.webflow.io/anturax",
+            "type": "webflow-ix2",
+            "tech": "Webflow IX2",
+            "selector": "div.plotter_point-lottie"
+          }
+        },
+        {
+          "id": "lottie-variant-49",
+          "props": {
+            "duration": 600,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_183.mp4",
+          "_source": {
+            "slug": "anim_183",
+            "sourcePage": "https://dich-fashion.webflow.io/anturax",
+            "type": "webflow-ix2",
+            "tech": "Webflow IX2",
+            "selector": "div.plotter_point-lottie"
+          }
+        },
+        {
+          "id": "lottie-variant-50",
+          "props": {
+            "duration": 600,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_184.mp4",
+          "_source": {
+            "slug": "anim_184",
+            "sourcePage": "https://dich-fashion.webflow.io/anturax",
+            "type": "webflow-ix2",
+            "tech": "Webflow IX2",
+            "selector": "div.plotter_point-lottie"
+          }
+        },
+        {
+          "id": "lottie-variant-51",
+          "props": {
+            "duration": 600,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_185.mp4",
+          "_source": {
+            "slug": "anim_185",
+            "sourcePage": "https://dich-fashion.webflow.io/anturax",
+            "type": "webflow-ix2",
+            "tech": "Webflow IX2",
+            "selector": "div.plotter_point-lottie"
+          }
+        },
+        {
+          "id": "lottie-variant-52",
+          "props": {
+            "duration": 600,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_217.mp4",
+          "_source": {
+            "slug": "anim_217",
+            "sourcePage": "https://dich-fashion.webflow.io/#section-collections",
+            "type": "webflow-ix2",
+            "tech": "Webflow IX2",
+            "selector": "div.icon_sound-lottie"
+          }
+        },
+        {
+          "id": "lottie-variant-53",
+          "props": {
+            "duration": 600,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_228.mp4",
+          "_source": {
+            "slug": "anim_228",
+            "sourcePage": "https://dich-fashion.webflow.io/#section-collections",
+            "type": "webflow-ix2",
+            "tech": "Webflow IX2",
+            "selector": "div.collections_lottie-left"
+          }
+        },
+        {
+          "id": "lottie-variant-54",
+          "props": {
+            "duration": 600,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_229.mp4",
+          "_source": {
+            "slug": "anim_229",
+            "sourcePage": "https://dich-fashion.webflow.io/#section-collections",
+            "type": "webflow-ix2",
+            "tech": "Webflow IX2",
+            "selector": "div.lottie_case-index"
+          }
+        },
+        {
+          "id": "lottie-variant-55",
+          "props": {
+            "duration": 600,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_230.mp4",
+          "_source": {
+            "slug": "anim_230",
+            "sourcePage": "https://dich-fashion.webflow.io/#section-collections",
+            "type": "webflow-ix2",
+            "tech": "Webflow IX2",
+            "selector": "div.lottie_case-index-2"
+          }
+        },
+        {
+          "id": "lottie-variant-56",
+          "props": {
+            "duration": 600,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_233.mp4",
+          "_source": {
+            "slug": "anim_233",
+            "sourcePage": "https://dich-fashion.webflow.io/#section-collections",
+            "type": "webflow-ix2",
+            "tech": "Webflow IX2",
+            "selector": "div.lottie"
+          }
+        },
+        {
+          "id": "lottie-variant-57",
+          "props": {
+            "duration": 600,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_234.mp4",
+          "_source": {
+            "slug": "anim_234",
+            "sourcePage": "https://dich-fashion.webflow.io/#section-collections",
+            "type": "webflow-ix2",
+            "tech": "Webflow IX2",
+            "selector": "div.lottie"
+          }
+        },
+        {
+          "id": "lottie-variant-58",
+          "props": {
+            "duration": 600,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_235.mp4",
+          "_source": {
+            "slug": "anim_235",
+            "sourcePage": "https://dich-fashion.webflow.io/#section-collections",
+            "type": "webflow-ix2",
+            "tech": "Webflow IX2",
+            "selector": "div.lottie"
+          }
+        },
+        {
+          "id": "lottie-variant-59",
+          "props": {
+            "duration": 600,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_237.mp4",
+          "_source": {
+            "slug": "anim_237",
+            "sourcePage": "https://dich-fashion.webflow.io/#section-collections",
+            "type": "webflow-ix2",
+            "tech": "Webflow IX2",
+            "selector": "div.lottie"
+          }
+        },
+        {
+          "id": "lottie-variant-60",
+          "props": {
+            "duration": 600,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_291.mp4",
+          "_source": {
+            "slug": "anim_291",
+            "sourcePage": "https://dich-fashion.webflow.io/#section-index",
+            "type": "webflow-ix2",
+            "tech": "Webflow IX2",
+            "selector": "div.icon_sound-lottie"
+          }
+        },
+        {
+          "id": "lottie-variant-61",
+          "props": {
+            "duration": 600,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_302.mp4",
+          "_source": {
+            "slug": "anim_302",
+            "sourcePage": "https://dich-fashion.webflow.io/#section-index",
+            "type": "webflow-ix2",
+            "tech": "Webflow IX2",
+            "selector": "div.collections_lottie-left"
+          }
+        },
+        {
+          "id": "lottie-variant-62",
+          "props": {
+            "duration": 600,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_303.mp4",
+          "_source": {
+            "slug": "anim_303",
+            "sourcePage": "https://dich-fashion.webflow.io/#section-index",
+            "type": "webflow-ix2",
+            "tech": "Webflow IX2",
+            "selector": "div.lottie_case-index"
+          }
+        },
+        {
+          "id": "lottie-variant-63",
+          "props": {
+            "duration": 600,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_304.mp4",
+          "_source": {
+            "slug": "anim_304",
+            "sourcePage": "https://dich-fashion.webflow.io/#section-index",
+            "type": "webflow-ix2",
+            "tech": "Webflow IX2",
+            "selector": "div.lottie_case-index-2"
+          }
+        },
+        {
+          "id": "lottie-variant-64",
+          "props": {
+            "duration": 600,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_307.mp4",
+          "_source": {
+            "slug": "anim_307",
+            "sourcePage": "https://dich-fashion.webflow.io/#section-index",
+            "type": "webflow-ix2",
+            "tech": "Webflow IX2",
+            "selector": "div.lottie"
+          }
+        },
+        {
+          "id": "lottie-variant-65",
+          "props": {
+            "duration": 600,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_308.mp4",
+          "_source": {
+            "slug": "anim_308",
+            "sourcePage": "https://dich-fashion.webflow.io/#section-index",
+            "type": "webflow-ix2",
+            "tech": "Webflow IX2",
+            "selector": "div.lottie"
+          }
+        },
+        {
+          "id": "lottie-variant-66",
+          "props": {
+            "duration": 600,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_309.mp4",
+          "_source": {
+            "slug": "anim_309",
+            "sourcePage": "https://dich-fashion.webflow.io/#section-index",
+            "type": "webflow-ix2",
+            "tech": "Webflow IX2",
+            "selector": "div.lottie"
+          }
+        },
+        {
+          "id": "lottie-variant-67",
+          "props": {
+            "duration": 600,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_311.mp4",
+          "_source": {
+            "slug": "anim_311",
+            "sourcePage": "https://dich-fashion.webflow.io/#section-index",
+            "type": "webflow-ix2",
+            "tech": "Webflow IX2",
+            "selector": "div.lottie"
+          }
+        }
+      ],
+      "_source": {
+        "slug": "anim_003",
+        "sourcePage": "https://dich-fashion.webflow.io/",
+        "type": "webflow-ix2",
+        "tech": "Webflow IX2",
+        "selector": "div.icon_sound-lottie"
+      }
+    },
+    {
+      "id": "generic",
+      "label": "通用動畫",
+      "category": [
+        "general"
+      ],
+      "props": {
+        "duration": 600,
+        "delay": 0,
+        "easing": "ease"
+      },
+      "defaults": {
+        "duration": 600,
+        "delay": 0,
+        "easing": "ease"
+      },
+      "code": {
+        "css": "",
+        "js": "\n// 基本 JavaScript 觸發\nelement.classList.add('active');"
+      },
+      "preview": "/previews/anim_004.mp4",
+      "tags": [
+        "fashion",
+        "navigation",
+        "button",
+        "webflow-ix2"
+      ],
+      "variants": [
+        {
+          "id": "generic-variant-1",
+          "props": {
+            "duration": 600,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_005.mp4",
+          "_source": {
+            "slug": "anim_005",
+            "sourcePage": "https://dich-fashion.webflow.io/",
+            "type": "webflow-ix2",
+            "tech": "Webflow IX2",
+            "selector": "div.spline-object.scaleup2"
+          }
+        },
+        {
+          "id": "generic-variant-2",
+          "props": {
+            "duration": 600,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_017.mp4",
+          "_source": {
+            "slug": "anim_017",
+            "sourcePage": "https://dich-fashion.webflow.io/",
+            "type": "webflow-ix2",
+            "tech": "Webflow IX2",
+            "selector": "section#section-mission"
+          }
+        },
+        {
+          "id": "generic-variant-3",
+          "props": {
+            "duration": 600,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_018.mp4",
+          "_source": {
+            "slug": "anim_018",
+            "sourcePage": "https://dich-fashion.webflow.io/",
+            "type": "webflow-ix2",
+            "tech": "Webflow IX2",
+            "selector": "div.spline-object-mission"
+          }
+        },
+        {
+          "id": "generic-variant-4",
+          "props": {
+            "duration": 600,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_022.mp4",
+          "_source": {
+            "slug": "anim_022",
+            "sourcePage": "https://dich-fashion.webflow.io/",
+            "type": "webflow-ix2",
+            "tech": "Webflow IX2",
+            "selector": "section#section-gallery"
+          }
+        },
+        {
+          "id": "generic-variant-5",
+          "props": {
+            "duration": 600,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_061.mp4",
+          "_source": {
+            "slug": "anim_061",
+            "sourcePage": "https://dich-fashion.webflow.io/#",
+            "type": "webflow-ix2",
+            "tech": "Webflow IX2",
+            "selector": "a.nav_button.text-size-architekt-11.w-inline-block"
+          }
+        },
+        {
+          "id": "generic-variant-6",
+          "props": {
+            "duration": 600,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_062.mp4",
+          "_source": {
+            "slug": "anim_062",
+            "sourcePage": "https://dich-fashion.webflow.io/#",
+            "type": "webflow-ix2",
+            "tech": "Webflow IX2",
+            "selector": "div.spline-object.scaleup2"
+          }
+        },
+        {
+          "id": "generic-variant-7",
+          "props": {
+            "duration": 600,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_074.mp4",
+          "_source": {
+            "slug": "anim_074",
+            "sourcePage": "https://dich-fashion.webflow.io/#",
+            "type": "webflow-ix2",
+            "tech": "Webflow IX2",
+            "selector": "section#section-mission"
+          }
+        },
+        {
+          "id": "generic-variant-8",
+          "props": {
+            "duration": 600,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_075.mp4",
+          "_source": {
+            "slug": "anim_075",
+            "sourcePage": "https://dich-fashion.webflow.io/#",
+            "type": "webflow-ix2",
+            "tech": "Webflow IX2",
+            "selector": "div.spline-object-mission"
+          }
+        },
+        {
+          "id": "generic-variant-9",
+          "props": {
+            "duration": 600,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_079.mp4",
+          "_source": {
+            "slug": "anim_079",
+            "sourcePage": "https://dich-fashion.webflow.io/#",
+            "type": "webflow-ix2",
+            "tech": "Webflow IX2",
+            "selector": "section#section-gallery"
+          }
+        },
+        {
+          "id": "generic-variant-10",
+          "props": {
+            "duration": 600,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_118.mp4",
+          "_source": {
+            "slug": "anim_118",
+            "sourcePage": "https://dich-fashion.webflow.io/oraniths",
+            "type": "webflow-ix2",
+            "tech": "Webflow IX2",
+            "selector": "a.nav_button.text-size-architekt-11.w-inline-block"
+          }
+        },
+        {
+          "id": "generic-variant-11",
+          "props": {
+            "duration": 600,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_136.mp4",
+          "_source": {
+            "slug": "anim_136",
+            "sourcePage": "https://dich-fashion.webflow.io/oraniths",
+            "type": "webflow-ix2",
+            "tech": "Webflow IX2",
+            "selector": "img.show-case_bg"
+          }
+        },
+        {
+          "id": "generic-variant-12",
+          "props": {
+            "duration": 600,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_137.mp4",
+          "_source": {
+            "slug": "anim_137",
+            "sourcePage": "https://dich-fashion.webflow.io/oraniths",
+            "type": "webflow-ix2",
+            "tech": "Webflow IX2",
+            "selector": "div.section_show-case-4.lazy-section"
+          }
+        },
+        {
+          "id": "generic-variant-13",
+          "props": {
+            "duration": 600,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_168.mp4",
+          "_source": {
+            "slug": "anim_168",
+            "sourcePage": "https://dich-fashion.webflow.io/anturax",
+            "type": "webflow-ix2",
+            "tech": "Webflow IX2",
+            "selector": "a.nav_button.text-size-architekt-11.w-inline-block"
+          }
+        },
+        {
+          "id": "generic-variant-14",
+          "props": {
+            "duration": 600,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_186.mp4",
+          "_source": {
+            "slug": "anim_186",
+            "sourcePage": "https://dich-fashion.webflow.io/anturax",
+            "type": "webflow-ix2",
+            "tech": "Webflow IX2",
+            "selector": "img.show-case_bg"
+          }
+        },
+        {
+          "id": "generic-variant-15",
+          "props": {
+            "duration": 600,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_187.mp4",
+          "_source": {
+            "slug": "anim_187",
+            "sourcePage": "https://dich-fashion.webflow.io/anturax",
+            "type": "webflow-ix2",
+            "tech": "Webflow IX2",
+            "selector": "div.section_show-case-4.lazy-section"
+          }
+        },
+        {
+          "id": "generic-variant-16",
+          "props": {
+            "duration": 600,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_218.mp4",
+          "_source": {
+            "slug": "anim_218",
+            "sourcePage": "https://dich-fashion.webflow.io/#section-collections",
+            "type": "webflow-ix2",
+            "tech": "Webflow IX2",
+            "selector": "a.nav_button.text-size-architekt-11.w-inline-block"
+          }
+        },
+        {
+          "id": "generic-variant-17",
+          "props": {
+            "duration": 600,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_219.mp4",
+          "_source": {
+            "slug": "anim_219",
+            "sourcePage": "https://dich-fashion.webflow.io/#section-collections",
+            "type": "webflow-ix2",
+            "tech": "Webflow IX2",
+            "selector": "div.spline-object.scaleup2"
+          }
+        },
+        {
+          "id": "generic-variant-18",
+          "props": {
+            "duration": 600,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_231.mp4",
+          "_source": {
+            "slug": "anim_231",
+            "sourcePage": "https://dich-fashion.webflow.io/#section-collections",
+            "type": "webflow-ix2",
+            "tech": "Webflow IX2",
+            "selector": "section#section-mission"
+          }
+        },
+        {
+          "id": "generic-variant-19",
+          "props": {
+            "duration": 600,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_232.mp4",
+          "_source": {
+            "slug": "anim_232",
+            "sourcePage": "https://dich-fashion.webflow.io/#section-collections",
+            "type": "webflow-ix2",
+            "tech": "Webflow IX2",
+            "selector": "div.spline-object-mission"
+          }
+        },
+        {
+          "id": "generic-variant-20",
+          "props": {
+            "duration": 600,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_236.mp4",
+          "_source": {
+            "slug": "anim_236",
+            "sourcePage": "https://dich-fashion.webflow.io/#section-collections",
+            "type": "webflow-ix2",
+            "tech": "Webflow IX2",
+            "selector": "section#section-gallery"
+          }
+        },
+        {
+          "id": "generic-variant-21",
+          "props": {
+            "duration": 600,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_292.mp4",
+          "_source": {
+            "slug": "anim_292",
+            "sourcePage": "https://dich-fashion.webflow.io/#section-index",
+            "type": "webflow-ix2",
+            "tech": "Webflow IX2",
+            "selector": "a.nav_button.text-size-architekt-11.w-inline-block"
+          }
+        },
+        {
+          "id": "generic-variant-22",
+          "props": {
+            "duration": 600,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_293.mp4",
+          "_source": {
+            "slug": "anim_293",
+            "sourcePage": "https://dich-fashion.webflow.io/#section-index",
+            "type": "webflow-ix2",
+            "tech": "Webflow IX2",
+            "selector": "div.spline-object.scaleup2"
+          }
+        },
+        {
+          "id": "generic-variant-23",
+          "props": {
+            "duration": 600,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_305.mp4",
+          "_source": {
+            "slug": "anim_305",
+            "sourcePage": "https://dich-fashion.webflow.io/#section-index",
+            "type": "webflow-ix2",
+            "tech": "Webflow IX2",
+            "selector": "section#section-mission"
+          }
+        },
+        {
+          "id": "generic-variant-24",
+          "props": {
+            "duration": 600,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_306.mp4",
+          "_source": {
+            "slug": "anim_306",
+            "sourcePage": "https://dich-fashion.webflow.io/#section-index",
+            "type": "webflow-ix2",
+            "tech": "Webflow IX2",
+            "selector": "div.spline-object-mission"
+          }
+        },
+        {
+          "id": "generic-variant-25",
+          "props": {
+            "duration": 600,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_310.mp4",
+          "_source": {
+            "slug": "anim_310",
+            "sourcePage": "https://dich-fashion.webflow.io/#section-index",
+            "type": "webflow-ix2",
+            "tech": "Webflow IX2",
+            "selector": "section#section-gallery"
+          }
+        }
+      ],
+      "_source": {
+        "slug": "anim_004",
+        "sourcePage": "https://dich-fashion.webflow.io/",
+        "type": "webflow-ix2",
+        "tech": "Webflow IX2",
+        "selector": "a.nav_button.text-size-architekt-11.w-inline-block"
+      }
+    },
+    {
+      "id": "floating",
+      "label": "浮動效果",
+      "category": [
+        "general"
+      ],
+      "props": {
+        "duration": 600,
+        "delay": 0,
+        "easing": "ease"
+      },
+      "defaults": {
+        "duration": 600,
+        "delay": 0,
+        "easing": "ease"
+      },
+      "code": {
+        "css": "",
+        "js": "\n// 基本 JavaScript 觸發\nelement.classList.add('active');"
+      },
+      "preview": "/previews/anim_006.mp4",
+      "tags": [
+        "fashion",
+        "image",
+        "webflow-ix2"
+      ],
+      "variants": [
+        {
+          "id": "floating-variant-1",
+          "props": {
+            "duration": 600,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_007.mp4",
+          "_source": {
+            "slug": "anim_007",
+            "sourcePage": "https://dich-fashion.webflow.io/",
+            "type": "webflow-ix2",
+            "tech": "Webflow IX2",
+            "selector": "img.index_cloud-image.is-1"
+          }
+        },
+        {
+          "id": "floating-variant-2",
+          "props": {
+            "duration": 600,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_008.mp4",
+          "_source": {
+            "slug": "anim_008",
+            "sourcePage": "https://dich-fashion.webflow.io/",
+            "type": "webflow-ix2",
+            "tech": "Webflow IX2",
+            "selector": "img.index_cloud-image.is-2"
+          }
+        },
+        {
+          "id": "floating-variant-3",
+          "props": {
+            "duration": 600,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_010.mp4",
+          "_source": {
+            "slug": "anim_010",
+            "sourcePage": "https://dich-fashion.webflow.io/",
+            "type": "webflow-ix2",
+            "tech": "Webflow IX2",
+            "selector": "img.index-cloud--ollections.is-center"
+          }
+        },
+        {
+          "id": "floating-variant-4",
+          "props": {
+            "duration": 600,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_011.mp4",
+          "_source": {
+            "slug": "anim_011",
+            "sourcePage": "https://dich-fashion.webflow.io/",
+            "type": "webflow-ix2",
+            "tech": "Webflow IX2",
+            "selector": "img.index-cloud--ollections.is-1"
+          }
+        },
+        {
+          "id": "floating-variant-5",
+          "props": {
+            "duration": 600,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_012.mp4",
+          "_source": {
+            "slug": "anim_012",
+            "sourcePage": "https://dich-fashion.webflow.io/",
+            "type": "webflow-ix2",
+            "tech": "Webflow IX2",
+            "selector": "img.index-cloud--ollections.is-3"
+          }
+        },
+        {
+          "id": "floating-variant-6",
+          "props": {
+            "duration": 600,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_013.mp4",
+          "_source": {
+            "slug": "anim_013",
+            "sourcePage": "https://dich-fashion.webflow.io/",
+            "type": "webflow-ix2",
+            "tech": "Webflow IX2",
+            "selector": "img.index-cloud--ollections.is-2"
+          }
+        },
+        {
+          "id": "floating-variant-7",
+          "props": {
+            "duration": 600,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_063.mp4",
+          "_source": {
+            "slug": "anim_063",
+            "sourcePage": "https://dich-fashion.webflow.io/#",
+            "type": "webflow-ix2",
+            "tech": "Webflow IX2",
+            "selector": "img.index_cloud-image.is-3"
+          }
+        },
+        {
+          "id": "floating-variant-8",
+          "props": {
+            "duration": 600,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_064.mp4",
+          "_source": {
+            "slug": "anim_064",
+            "sourcePage": "https://dich-fashion.webflow.io/#",
+            "type": "webflow-ix2",
+            "tech": "Webflow IX2",
+            "selector": "img.index_cloud-image.is-1"
+          }
+        },
+        {
+          "id": "floating-variant-9",
+          "props": {
+            "duration": 600,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_065.mp4",
+          "_source": {
+            "slug": "anim_065",
+            "sourcePage": "https://dich-fashion.webflow.io/#",
+            "type": "webflow-ix2",
+            "tech": "Webflow IX2",
+            "selector": "img.index_cloud-image.is-2"
+          }
+        },
+        {
+          "id": "floating-variant-10",
+          "props": {
+            "duration": 600,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_067.mp4",
+          "_source": {
+            "slug": "anim_067",
+            "sourcePage": "https://dich-fashion.webflow.io/#",
+            "type": "webflow-ix2",
+            "tech": "Webflow IX2",
+            "selector": "img.index-cloud--ollections.is-center"
+          }
+        },
+        {
+          "id": "floating-variant-11",
+          "props": {
+            "duration": 600,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_068.mp4",
+          "_source": {
+            "slug": "anim_068",
+            "sourcePage": "https://dich-fashion.webflow.io/#",
+            "type": "webflow-ix2",
+            "tech": "Webflow IX2",
+            "selector": "img.index-cloud--ollections.is-1"
+          }
+        },
+        {
+          "id": "floating-variant-12",
+          "props": {
+            "duration": 600,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_069.mp4",
+          "_source": {
+            "slug": "anim_069",
+            "sourcePage": "https://dich-fashion.webflow.io/#",
+            "type": "webflow-ix2",
+            "tech": "Webflow IX2",
+            "selector": "img.index-cloud--ollections.is-3"
+          }
+        },
+        {
+          "id": "floating-variant-13",
+          "props": {
+            "duration": 600,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_070.mp4",
+          "_source": {
+            "slug": "anim_070",
+            "sourcePage": "https://dich-fashion.webflow.io/#",
+            "type": "webflow-ix2",
+            "tech": "Webflow IX2",
+            "selector": "img.index-cloud--ollections.is-2"
+          }
+        },
+        {
+          "id": "floating-variant-14",
+          "props": {
+            "duration": 600,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_220.mp4",
+          "_source": {
+            "slug": "anim_220",
+            "sourcePage": "https://dich-fashion.webflow.io/#section-collections",
+            "type": "webflow-ix2",
+            "tech": "Webflow IX2",
+            "selector": "img.index_cloud-image.is-3"
+          }
+        },
+        {
+          "id": "floating-variant-15",
+          "props": {
+            "duration": 600,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_221.mp4",
+          "_source": {
+            "slug": "anim_221",
+            "sourcePage": "https://dich-fashion.webflow.io/#section-collections",
+            "type": "webflow-ix2",
+            "tech": "Webflow IX2",
+            "selector": "img.index_cloud-image.is-1"
+          }
+        },
+        {
+          "id": "floating-variant-16",
+          "props": {
+            "duration": 600,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_222.mp4",
+          "_source": {
+            "slug": "anim_222",
+            "sourcePage": "https://dich-fashion.webflow.io/#section-collections",
+            "type": "webflow-ix2",
+            "tech": "Webflow IX2",
+            "selector": "img.index_cloud-image.is-2"
+          }
+        },
+        {
+          "id": "floating-variant-17",
+          "props": {
+            "duration": 600,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_224.mp4",
+          "_source": {
+            "slug": "anim_224",
+            "sourcePage": "https://dich-fashion.webflow.io/#section-collections",
+            "type": "webflow-ix2",
+            "tech": "Webflow IX2",
+            "selector": "img.index-cloud--ollections.is-center"
+          }
+        },
+        {
+          "id": "floating-variant-18",
+          "props": {
+            "duration": 600,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_225.mp4",
+          "_source": {
+            "slug": "anim_225",
+            "sourcePage": "https://dich-fashion.webflow.io/#section-collections",
+            "type": "webflow-ix2",
+            "tech": "Webflow IX2",
+            "selector": "img.index-cloud--ollections.is-1"
+          }
+        },
+        {
+          "id": "floating-variant-19",
+          "props": {
+            "duration": 600,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_226.mp4",
+          "_source": {
+            "slug": "anim_226",
+            "sourcePage": "https://dich-fashion.webflow.io/#section-collections",
+            "type": "webflow-ix2",
+            "tech": "Webflow IX2",
+            "selector": "img.index-cloud--ollections.is-3"
+          }
+        },
+        {
+          "id": "floating-variant-20",
+          "props": {
+            "duration": 600,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_227.mp4",
+          "_source": {
+            "slug": "anim_227",
+            "sourcePage": "https://dich-fashion.webflow.io/#section-collections",
+            "type": "webflow-ix2",
+            "tech": "Webflow IX2",
+            "selector": "img.index-cloud--ollections.is-2"
+          }
+        },
+        {
+          "id": "floating-variant-21",
+          "props": {
+            "duration": 600,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_294.mp4",
+          "_source": {
+            "slug": "anim_294",
+            "sourcePage": "https://dich-fashion.webflow.io/#section-index",
+            "type": "webflow-ix2",
+            "tech": "Webflow IX2",
+            "selector": "img.index_cloud-image.is-3"
+          }
+        },
+        {
+          "id": "floating-variant-22",
+          "props": {
+            "duration": 600,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_295.mp4",
+          "_source": {
+            "slug": "anim_295",
+            "sourcePage": "https://dich-fashion.webflow.io/#section-index",
+            "type": "webflow-ix2",
+            "tech": "Webflow IX2",
+            "selector": "img.index_cloud-image.is-1"
+          }
+        },
+        {
+          "id": "floating-variant-23",
+          "props": {
+            "duration": 600,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_296.mp4",
+          "_source": {
+            "slug": "anim_296",
+            "sourcePage": "https://dich-fashion.webflow.io/#section-index",
+            "type": "webflow-ix2",
+            "tech": "Webflow IX2",
+            "selector": "img.index_cloud-image.is-2"
+          }
+        },
+        {
+          "id": "floating-variant-24",
+          "props": {
+            "duration": 600,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_298.mp4",
+          "_source": {
+            "slug": "anim_298",
+            "sourcePage": "https://dich-fashion.webflow.io/#section-index",
+            "type": "webflow-ix2",
+            "tech": "Webflow IX2",
+            "selector": "img.index-cloud--ollections.is-center"
+          }
+        },
+        {
+          "id": "floating-variant-25",
+          "props": {
+            "duration": 600,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_299.mp4",
+          "_source": {
+            "slug": "anim_299",
+            "sourcePage": "https://dich-fashion.webflow.io/#section-index",
+            "type": "webflow-ix2",
+            "tech": "Webflow IX2",
+            "selector": "img.index-cloud--ollections.is-1"
+          }
+        },
+        {
+          "id": "floating-variant-26",
+          "props": {
+            "duration": 600,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_300.mp4",
+          "_source": {
+            "slug": "anim_300",
+            "sourcePage": "https://dich-fashion.webflow.io/#section-index",
+            "type": "webflow-ix2",
+            "tech": "Webflow IX2",
+            "selector": "img.index-cloud--ollections.is-3"
+          }
+        },
+        {
+          "id": "floating-variant-27",
+          "props": {
+            "duration": 600,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_301.mp4",
+          "_source": {
+            "slug": "anim_301",
+            "sourcePage": "https://dich-fashion.webflow.io/#section-index",
+            "type": "webflow-ix2",
+            "tech": "Webflow IX2",
+            "selector": "img.index-cloud--ollections.is-2"
+          }
+        }
+      ],
+      "_source": {
+        "slug": "anim_006",
+        "sourcePage": "https://dich-fashion.webflow.io/",
+        "type": "webflow-ix2",
+        "tech": "Webflow IX2",
+        "selector": "img.index_cloud-image.is-3"
+      }
+    },
+    {
+      "id": "generic-1",
+      "label": "通用動畫",
+      "category": [
+        "scroll"
+      ],
+      "props": {
+        "duration": 600,
+        "delay": 0,
+        "easing": "ease"
+      },
+      "defaults": {
+        "duration": 600,
+        "delay": 0,
+        "easing": "ease"
+      },
+      "code": {
+        "css": "",
+        "js": "\n// 基本 JavaScript 觸發\nelement.classList.add('active');"
+      },
+      "preview": "/previews/anim_009.mp4",
+      "tags": [
+        "fashion",
+        "webflow-ix2"
+      ],
+      "variants": [
+        {
+          "id": "generic-variant-1",
+          "props": {
+            "duration": 600,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_066.mp4",
+          "_source": {
+            "slug": "anim_066",
+            "sourcePage": "https://dich-fashion.webflow.io/#",
+            "type": "webflow-ix2",
+            "tech": "Webflow IX2",
+            "selector": "section#section-collections"
+          }
+        },
+        {
+          "id": "generic-variant-2",
+          "props": {
+            "duration": 600,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_223.mp4",
+          "_source": {
+            "slug": "anim_223",
+            "sourcePage": "https://dich-fashion.webflow.io/#section-collections",
+            "type": "webflow-ix2",
+            "tech": "Webflow IX2",
+            "selector": "section#section-collections"
+          }
+        },
+        {
+          "id": "generic-variant-3",
+          "props": {
+            "duration": 600,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_297.mp4",
+          "_source": {
+            "slug": "anim_297",
+            "sourcePage": "https://dich-fashion.webflow.io/#section-index",
+            "type": "webflow-ix2",
+            "tech": "Webflow IX2",
+            "selector": "section#section-collections"
+          }
+        }
+      ],
+      "_source": {
+        "slug": "anim_009",
+        "sourcePage": "https://dich-fashion.webflow.io/",
+        "type": "webflow-ix2",
+        "tech": "Webflow IX2",
+        "selector": "section#section-collections"
+      }
+    },
+    {
+      "id": "fade",
+      "label": "淡入",
+      "category": [
+        "entrance",
+        "entrance"
+      ],
+      "props": {
+        "duration": 1000,
+        "delay": 0,
+        "easing": "ease",
+        "opacityTo": 1
+      },
+      "defaults": {
+        "duration": 1000,
+        "delay": 0,
+        "easing": "ease",
+        "opacityTo": 1
+      },
+      "code": {
+        "css": "\n.fade-animation {\n  opacity: 0;\n  transition: opacity 1000ms ease;\n}\n.fade-animation.active {\n  opacity: 1;\n}",
+        "js": "\n// 基本 JavaScript 觸發\nelement.classList.add('active');"
+      },
+      "preview": "/previews/anim_024.mp4",
+      "tags": [
+        "fashion",
+        "css-keyframes"
+      ],
+      "variants": [
+        {
+          "id": "fade-variant-1",
+          "props": {
+            "duration": 1000,
+            "delay": 0,
+            "easing": "ease",
+            "opacityTo": 0,
+            "scale": 0.5
+          },
+          "preview": "/previews/anim_025.mp4",
+          "_source": {
+            "slug": "anim_025",
+            "sourcePage": "https://dich-fashion.webflow.io/",
+            "type": "css-keyframes",
+            "tech": "CSS keyframes",
+            "selector": ""
+          }
+        },
+        {
+          "id": "fade-variant-2",
+          "props": {
+            "duration": 1000,
+            "delay": 0,
+            "easing": "ease",
+            "opacityTo": 0,
+            "scale": 0.9
+          },
+          "preview": "/previews/anim_026.mp4",
+          "_source": {
+            "slug": "anim_026",
+            "sourcePage": "https://dich-fashion.webflow.io/",
+            "type": "css-keyframes",
+            "tech": "CSS keyframes",
+            "selector": ""
+          }
+        },
+        {
+          "id": "fade-variant-3",
+          "props": {
+            "duration": 1000,
+            "delay": 0,
+            "easing": "ease",
+            "opacityTo": 0
+          },
+          "preview": "/previews/anim_027.mp4",
+          "_source": {
+            "slug": "anim_027",
+            "sourcePage": "https://dich-fashion.webflow.io/",
+            "type": "css-keyframes",
+            "tech": "CSS keyframes",
+            "selector": ""
+          }
+        },
+        {
+          "id": "fade-variant-4",
+          "props": {
+            "duration": 1000,
+            "delay": 0,
+            "easing": "ease",
+            "opacityTo": 1
+          },
+          "preview": "/previews/anim_028.mp4",
+          "_source": {
+            "slug": "anim_028",
+            "sourcePage": "https://dich-fashion.webflow.io/",
+            "type": "css-keyframes",
+            "tech": "CSS keyframes",
+            "selector": ""
+          }
+        },
+        {
+          "id": "fade-variant-5",
+          "props": {
+            "duration": 1000,
+            "delay": 0,
+            "easing": "ease",
+            "opacityTo": 0.25
+          },
+          "preview": "/previews/anim_030.mp4",
+          "_source": {
+            "slug": "anim_030",
+            "sourcePage": "https://dich-fashion.webflow.io/",
+            "type": "css-keyframes",
+            "tech": "CSS keyframes",
+            "selector": ""
+          }
+        },
+        {
+          "id": "fade-variant-6",
+          "props": {
+            "duration": 1000,
+            "delay": 0,
+            "easing": "ease",
+            "opacityTo": 1
+          },
+          "preview": "/previews/anim_031.mp4",
+          "_source": {
+            "slug": "anim_031",
+            "sourcePage": "https://dich-fashion.webflow.io/",
+            "type": "css-keyframes",
+            "tech": "CSS keyframes",
+            "selector": ""
+          }
+        },
+        {
+          "id": "fade-variant-7",
+          "props": {
+            "duration": 1000,
+            "delay": 0,
+            "easing": "ease",
+            "opacityTo": 0.25
+          },
+          "preview": "/previews/anim_032.mp4",
+          "_source": {
+            "slug": "anim_032",
+            "sourcePage": "https://dich-fashion.webflow.io/",
+            "type": "css-keyframes",
+            "tech": "CSS keyframes",
+            "selector": ""
+          }
+        },
+        {
+          "id": "fade-variant-8",
+          "props": {
+            "duration": 1000,
+            "delay": 0,
+            "easing": "ease",
+            "opacityTo": 1
+          },
+          "preview": "/previews/anim_081.mp4",
+          "_source": {
+            "slug": "anim_081",
+            "sourcePage": "https://dich-fashion.webflow.io/#",
+            "type": "css-keyframes",
+            "tech": "CSS keyframes",
+            "selector": ""
+          }
+        },
+        {
+          "id": "fade-variant-9",
+          "props": {
+            "duration": 1000,
+            "delay": 0,
+            "easing": "ease",
+            "opacityTo": 0,
+            "scale": 0.5
+          },
+          "preview": "/previews/anim_082.mp4",
+          "_source": {
+            "slug": "anim_082",
+            "sourcePage": "https://dich-fashion.webflow.io/#",
+            "type": "css-keyframes",
+            "tech": "CSS keyframes",
+            "selector": ""
+          }
+        },
+        {
+          "id": "fade-variant-10",
+          "props": {
+            "duration": 1000,
+            "delay": 0,
+            "easing": "ease",
+            "opacityTo": 0,
+            "scale": 0.9
+          },
+          "preview": "/previews/anim_083.mp4",
+          "_source": {
+            "slug": "anim_083",
+            "sourcePage": "https://dich-fashion.webflow.io/#",
+            "type": "css-keyframes",
+            "tech": "CSS keyframes",
+            "selector": ""
+          }
+        },
+        {
+          "id": "fade-variant-11",
+          "props": {
+            "duration": 1000,
+            "delay": 0,
+            "easing": "ease",
+            "opacityTo": 0
+          },
+          "preview": "/previews/anim_084.mp4",
+          "_source": {
+            "slug": "anim_084",
+            "sourcePage": "https://dich-fashion.webflow.io/#",
+            "type": "css-keyframes",
+            "tech": "CSS keyframes",
+            "selector": ""
+          }
+        },
+        {
+          "id": "fade-variant-12",
+          "props": {
+            "duration": 1000,
+            "delay": 0,
+            "easing": "ease",
+            "opacityTo": 1
+          },
+          "preview": "/previews/anim_085.mp4",
+          "_source": {
+            "slug": "anim_085",
+            "sourcePage": "https://dich-fashion.webflow.io/#",
+            "type": "css-keyframes",
+            "tech": "CSS keyframes",
+            "selector": ""
+          }
+        },
+        {
+          "id": "fade-variant-13",
+          "props": {
+            "duration": 1000,
+            "delay": 0,
+            "easing": "ease",
+            "opacityTo": 0.25
+          },
+          "preview": "/previews/anim_087.mp4",
+          "_source": {
+            "slug": "anim_087",
+            "sourcePage": "https://dich-fashion.webflow.io/#",
+            "type": "css-keyframes",
+            "tech": "CSS keyframes",
+            "selector": ""
+          }
+        },
+        {
+          "id": "fade-variant-14",
+          "props": {
+            "duration": 1000,
+            "delay": 0,
+            "easing": "ease",
+            "opacityTo": 1
+          },
+          "preview": "/previews/anim_088.mp4",
+          "_source": {
+            "slug": "anim_088",
+            "sourcePage": "https://dich-fashion.webflow.io/#",
+            "type": "css-keyframes",
+            "tech": "CSS keyframes",
+            "selector": ""
+          }
+        },
+        {
+          "id": "fade-variant-15",
+          "props": {
+            "duration": 1000,
+            "delay": 0,
+            "easing": "ease",
+            "opacityTo": 0.25
+          },
+          "preview": "/previews/anim_089.mp4",
+          "_source": {
+            "slug": "anim_089",
+            "sourcePage": "https://dich-fashion.webflow.io/#",
+            "type": "css-keyframes",
+            "tech": "CSS keyframes",
+            "selector": ""
+          }
+        },
+        {
+          "id": "fade-variant-16",
+          "props": {
+            "duration": 1000,
+            "delay": 0,
+            "easing": "ease",
+            "opacityTo": 1
+          },
+          "preview": "/previews/anim_138.mp4",
+          "_source": {
+            "slug": "anim_138",
+            "sourcePage": "https://dich-fashion.webflow.io/oraniths",
+            "type": "css-keyframes",
+            "tech": "CSS keyframes",
+            "selector": ""
+          }
+        },
+        {
+          "id": "fade-variant-17",
+          "props": {
+            "duration": 1000,
+            "delay": 0,
+            "easing": "ease",
+            "opacityTo": 0,
+            "scale": 0.5
+          },
+          "preview": "/previews/anim_139.mp4",
+          "_source": {
+            "slug": "anim_139",
+            "sourcePage": "https://dich-fashion.webflow.io/oraniths",
+            "type": "css-keyframes",
+            "tech": "CSS keyframes",
+            "selector": ""
+          }
+        },
+        {
+          "id": "fade-variant-18",
+          "props": {
+            "duration": 1000,
+            "delay": 0,
+            "easing": "ease",
+            "opacityTo": 0,
+            "scale": 0.9
+          },
+          "preview": "/previews/anim_140.mp4",
+          "_source": {
+            "slug": "anim_140",
+            "sourcePage": "https://dich-fashion.webflow.io/oraniths",
+            "type": "css-keyframes",
+            "tech": "CSS keyframes",
+            "selector": ""
+          }
+        },
+        {
+          "id": "fade-variant-19",
+          "props": {
+            "duration": 1000,
+            "delay": 0,
+            "easing": "ease",
+            "opacityTo": 0
+          },
+          "preview": "/previews/anim_141.mp4",
+          "_source": {
+            "slug": "anim_141",
+            "sourcePage": "https://dich-fashion.webflow.io/oraniths",
+            "type": "css-keyframes",
+            "tech": "CSS keyframes",
+            "selector": ""
+          }
+        },
+        {
+          "id": "fade-variant-20",
+          "props": {
+            "duration": 1000,
+            "delay": 0,
+            "easing": "ease",
+            "opacityTo": 1
+          },
+          "preview": "/previews/anim_142.mp4",
+          "_source": {
+            "slug": "anim_142",
+            "sourcePage": "https://dich-fashion.webflow.io/oraniths",
+            "type": "css-keyframes",
+            "tech": "CSS keyframes",
+            "selector": ""
+          }
+        },
+        {
+          "id": "fade-variant-21",
+          "props": {
+            "duration": 1000,
+            "delay": 0,
+            "easing": "ease",
+            "opacityTo": 0.25
+          },
+          "preview": "/previews/anim_144.mp4",
+          "_source": {
+            "slug": "anim_144",
+            "sourcePage": "https://dich-fashion.webflow.io/oraniths",
+            "type": "css-keyframes",
+            "tech": "CSS keyframes",
+            "selector": ""
+          }
+        },
+        {
+          "id": "fade-variant-22",
+          "props": {
+            "duration": 1000,
+            "delay": 0,
+            "easing": "ease",
+            "opacityTo": 1
+          },
+          "preview": "/previews/anim_145.mp4",
+          "_source": {
+            "slug": "anim_145",
+            "sourcePage": "https://dich-fashion.webflow.io/oraniths",
+            "type": "css-keyframes",
+            "tech": "CSS keyframes",
+            "selector": ""
+          }
+        },
+        {
+          "id": "fade-variant-23",
+          "props": {
+            "duration": 1000,
+            "delay": 0,
+            "easing": "ease",
+            "opacityTo": 0.25
+          },
+          "preview": "/previews/anim_146.mp4",
+          "_source": {
+            "slug": "anim_146",
+            "sourcePage": "https://dich-fashion.webflow.io/oraniths",
+            "type": "css-keyframes",
+            "tech": "CSS keyframes",
+            "selector": ""
+          }
+        },
+        {
+          "id": "fade-variant-24",
+          "props": {
+            "duration": 1000,
+            "delay": 0,
+            "easing": "ease",
+            "opacityTo": 0.25
+          },
+          "preview": "/previews/anim_147.mp4",
+          "_source": {
+            "slug": "anim_147",
+            "sourcePage": "https://dich-fashion.webflow.io/oraniths",
+            "type": "css-keyframes",
+            "tech": "CSS keyframes",
+            "selector": ""
+          }
+        },
+        {
+          "id": "fade-variant-25",
+          "props": {
+            "duration": 1000,
+            "delay": 0,
+            "easing": "ease",
+            "opacityTo": 1
+          },
+          "preview": "/previews/anim_188.mp4",
+          "_source": {
+            "slug": "anim_188",
+            "sourcePage": "https://dich-fashion.webflow.io/anturax",
+            "type": "css-keyframes",
+            "tech": "CSS keyframes",
+            "selector": ""
+          }
+        },
+        {
+          "id": "fade-variant-26",
+          "props": {
+            "duration": 1000,
+            "delay": 0,
+            "easing": "ease",
+            "opacityTo": 0,
+            "scale": 0.5
+          },
+          "preview": "/previews/anim_189.mp4",
+          "_source": {
+            "slug": "anim_189",
+            "sourcePage": "https://dich-fashion.webflow.io/anturax",
+            "type": "css-keyframes",
+            "tech": "CSS keyframes",
+            "selector": ""
+          }
+        },
+        {
+          "id": "fade-variant-27",
+          "props": {
+            "duration": 1000,
+            "delay": 0,
+            "easing": "ease",
+            "opacityTo": 0,
+            "scale": 0.9
+          },
+          "preview": "/previews/anim_190.mp4",
+          "_source": {
+            "slug": "anim_190",
+            "sourcePage": "https://dich-fashion.webflow.io/anturax",
+            "type": "css-keyframes",
+            "tech": "CSS keyframes",
+            "selector": ""
+          }
+        },
+        {
+          "id": "fade-variant-28",
+          "props": {
+            "duration": 1000,
+            "delay": 0,
+            "easing": "ease",
+            "opacityTo": 0
+          },
+          "preview": "/previews/anim_191.mp4",
+          "_source": {
+            "slug": "anim_191",
+            "sourcePage": "https://dich-fashion.webflow.io/anturax",
+            "type": "css-keyframes",
+            "tech": "CSS keyframes",
+            "selector": ""
+          }
+        },
+        {
+          "id": "fade-variant-29",
+          "props": {
+            "duration": 1000,
+            "delay": 0,
+            "easing": "ease",
+            "opacityTo": 1
+          },
+          "preview": "/previews/anim_192.mp4",
+          "_source": {
+            "slug": "anim_192",
+            "sourcePage": "https://dich-fashion.webflow.io/anturax",
+            "type": "css-keyframes",
+            "tech": "CSS keyframes",
+            "selector": ""
+          }
+        },
+        {
+          "id": "fade-variant-30",
+          "props": {
+            "duration": 1000,
+            "delay": 0,
+            "easing": "ease",
+            "opacityTo": 0.25
+          },
+          "preview": "/previews/anim_194.mp4",
+          "_source": {
+            "slug": "anim_194",
+            "sourcePage": "https://dich-fashion.webflow.io/anturax",
+            "type": "css-keyframes",
+            "tech": "CSS keyframes",
+            "selector": ""
+          }
+        },
+        {
+          "id": "fade-variant-31",
+          "props": {
+            "duration": 1000,
+            "delay": 0,
+            "easing": "ease",
+            "opacityTo": 1
+          },
+          "preview": "/previews/anim_195.mp4",
+          "_source": {
+            "slug": "anim_195",
+            "sourcePage": "https://dich-fashion.webflow.io/anturax",
+            "type": "css-keyframes",
+            "tech": "CSS keyframes",
+            "selector": ""
+          }
+        },
+        {
+          "id": "fade-variant-32",
+          "props": {
+            "duration": 1000,
+            "delay": 0,
+            "easing": "ease",
+            "opacityTo": 0.25
+          },
+          "preview": "/previews/anim_196.mp4",
+          "_source": {
+            "slug": "anim_196",
+            "sourcePage": "https://dich-fashion.webflow.io/anturax",
+            "type": "css-keyframes",
+            "tech": "CSS keyframes",
+            "selector": ""
+          }
+        },
+        {
+          "id": "fade-variant-33",
+          "props": {
+            "duration": 1000,
+            "delay": 0,
+            "easing": "ease",
+            "opacityTo": 0.25
+          },
+          "preview": "/previews/anim_197.mp4",
+          "_source": {
+            "slug": "anim_197",
+            "sourcePage": "https://dich-fashion.webflow.io/anturax",
+            "type": "css-keyframes",
+            "tech": "CSS keyframes",
+            "selector": ""
+          }
+        },
+        {
+          "id": "fade-variant-34",
+          "props": {
+            "duration": 1000,
+            "delay": 0,
+            "easing": "ease",
+            "opacityTo": 1
+          },
+          "preview": "/previews/anim_238.mp4",
+          "_source": {
+            "slug": "anim_238",
+            "sourcePage": "https://dich-fashion.webflow.io/#section-collections",
+            "type": "css-keyframes",
+            "tech": "CSS keyframes",
+            "selector": ""
+          }
+        },
+        {
+          "id": "fade-variant-35",
+          "props": {
+            "duration": 1000,
+            "delay": 0,
+            "easing": "ease",
+            "opacityTo": 0,
+            "scale": 0.5
+          },
+          "preview": "/previews/anim_239.mp4",
+          "_source": {
+            "slug": "anim_239",
+            "sourcePage": "https://dich-fashion.webflow.io/#section-collections",
+            "type": "css-keyframes",
+            "tech": "CSS keyframes",
+            "selector": ""
+          }
+        },
+        {
+          "id": "fade-variant-36",
+          "props": {
+            "duration": 1000,
+            "delay": 0,
+            "easing": "ease",
+            "opacityTo": 0,
+            "scale": 0.9
+          },
+          "preview": "/previews/anim_240.mp4",
+          "_source": {
+            "slug": "anim_240",
+            "sourcePage": "https://dich-fashion.webflow.io/#section-collections",
+            "type": "css-keyframes",
+            "tech": "CSS keyframes",
+            "selector": ""
+          }
+        },
+        {
+          "id": "fade-variant-37",
+          "props": {
+            "duration": 1000,
+            "delay": 0,
+            "easing": "ease",
+            "opacityTo": 0
+          },
+          "preview": "/previews/anim_241.mp4",
+          "_source": {
+            "slug": "anim_241",
+            "sourcePage": "https://dich-fashion.webflow.io/#section-collections",
+            "type": "css-keyframes",
+            "tech": "CSS keyframes",
+            "selector": ""
+          }
+        },
+        {
+          "id": "fade-variant-38",
+          "props": {
+            "duration": 1000,
+            "delay": 0,
+            "easing": "ease",
+            "opacityTo": 1
+          },
+          "preview": "/previews/anim_242.mp4",
+          "_source": {
+            "slug": "anim_242",
+            "sourcePage": "https://dich-fashion.webflow.io/#section-collections",
+            "type": "css-keyframes",
+            "tech": "CSS keyframes",
+            "selector": ""
+          }
+        },
+        {
+          "id": "fade-variant-39",
+          "props": {
+            "duration": 1000,
+            "delay": 0,
+            "easing": "ease",
+            "opacityTo": 0.25
+          },
+          "preview": "/previews/anim_244.mp4",
+          "_source": {
+            "slug": "anim_244",
+            "sourcePage": "https://dich-fashion.webflow.io/#section-collections",
+            "type": "css-keyframes",
+            "tech": "CSS keyframes",
+            "selector": ""
+          }
+        },
+        {
+          "id": "fade-variant-40",
+          "props": {
+            "duration": 1000,
+            "delay": 0,
+            "easing": "ease",
+            "opacityTo": 1
+          },
+          "preview": "/previews/anim_245.mp4",
+          "_source": {
+            "slug": "anim_245",
+            "sourcePage": "https://dich-fashion.webflow.io/#section-collections",
+            "type": "css-keyframes",
+            "tech": "CSS keyframes",
+            "selector": ""
+          }
+        },
+        {
+          "id": "fade-variant-41",
+          "props": {
+            "duration": 1000,
+            "delay": 0,
+            "easing": "ease",
+            "opacityTo": 0.25
+          },
+          "preview": "/previews/anim_246.mp4",
+          "_source": {
+            "slug": "anim_246",
+            "sourcePage": "https://dich-fashion.webflow.io/#section-collections",
+            "type": "css-keyframes",
+            "tech": "CSS keyframes",
+            "selector": ""
+          }
+        },
+        {
+          "id": "fade-variant-42",
+          "props": {
+            "duration": 1000,
+            "delay": 0,
+            "easing": "ease",
+            "opacityTo": 1
+          },
+          "preview": "/previews/anim_272.mp4",
+          "_source": {
+            "slug": "anim_272",
+            "sourcePage": "https://dich-fashion.webflow.io/404",
+            "type": "css-keyframes",
+            "tech": "CSS keyframes",
+            "selector": ""
+          }
+        },
+        {
+          "id": "fade-variant-43",
+          "props": {
+            "duration": 1000,
+            "delay": 0,
+            "easing": "ease",
+            "opacityTo": 0,
+            "scale": 0.5
+          },
+          "preview": "/previews/anim_273.mp4",
+          "_source": {
+            "slug": "anim_273",
+            "sourcePage": "https://dich-fashion.webflow.io/404",
+            "type": "css-keyframes",
+            "tech": "CSS keyframes",
+            "selector": ""
+          }
+        },
+        {
+          "id": "fade-variant-44",
+          "props": {
+            "duration": 1000,
+            "delay": 0,
+            "easing": "ease",
+            "opacityTo": 0,
+            "scale": 0.9
+          },
+          "preview": "/previews/anim_274.mp4",
+          "_source": {
+            "slug": "anim_274",
+            "sourcePage": "https://dich-fashion.webflow.io/404",
+            "type": "css-keyframes",
+            "tech": "CSS keyframes",
+            "selector": ""
+          }
+        },
+        {
+          "id": "fade-variant-45",
+          "props": {
+            "duration": 1000,
+            "delay": 0,
+            "easing": "ease",
+            "opacityTo": 0
+          },
+          "preview": "/previews/anim_275.mp4",
+          "_source": {
+            "slug": "anim_275",
+            "sourcePage": "https://dich-fashion.webflow.io/404",
+            "type": "css-keyframes",
+            "tech": "CSS keyframes",
+            "selector": ""
+          }
+        },
+        {
+          "id": "fade-variant-46",
+          "props": {
+            "duration": 1000,
+            "delay": 0,
+            "easing": "ease",
+            "opacityTo": 1
+          },
+          "preview": "/previews/anim_276.mp4",
+          "_source": {
+            "slug": "anim_276",
+            "sourcePage": "https://dich-fashion.webflow.io/404",
+            "type": "css-keyframes",
+            "tech": "CSS keyframes",
+            "selector": ""
+          }
+        },
+        {
+          "id": "fade-variant-47",
+          "props": {
+            "duration": 1000,
+            "delay": 0,
+            "easing": "ease",
+            "opacityTo": 0.25
+          },
+          "preview": "/previews/anim_278.mp4",
+          "_source": {
+            "slug": "anim_278",
+            "sourcePage": "https://dich-fashion.webflow.io/404",
+            "type": "css-keyframes",
+            "tech": "CSS keyframes",
+            "selector": ""
+          }
+        },
+        {
+          "id": "fade-variant-48",
+          "props": {
+            "duration": 1000,
+            "delay": 0,
+            "easing": "ease",
+            "opacityTo": 1
+          },
+          "preview": "/previews/anim_279.mp4",
+          "_source": {
+            "slug": "anim_279",
+            "sourcePage": "https://dich-fashion.webflow.io/404",
+            "type": "css-keyframes",
+            "tech": "CSS keyframes",
+            "selector": ""
+          }
+        },
+        {
+          "id": "fade-variant-49",
+          "props": {
+            "duration": 1000,
+            "delay": 0,
+            "easing": "ease",
+            "opacityTo": 1
+          },
+          "preview": "/previews/anim_312.mp4",
+          "_source": {
+            "slug": "anim_312",
+            "sourcePage": "https://dich-fashion.webflow.io/#section-index",
+            "type": "css-keyframes",
+            "tech": "CSS keyframes",
+            "selector": ""
+          }
+        },
+        {
+          "id": "fade-variant-50",
+          "props": {
+            "duration": 1000,
+            "delay": 0,
+            "easing": "ease",
+            "opacityTo": 0,
+            "scale": 0.5
+          },
+          "preview": "/previews/anim_313.mp4",
+          "_source": {
+            "slug": "anim_313",
+            "sourcePage": "https://dich-fashion.webflow.io/#section-index",
+            "type": "css-keyframes",
+            "tech": "CSS keyframes",
+            "selector": ""
+          }
+        },
+        {
+          "id": "fade-variant-51",
+          "props": {
+            "duration": 1000,
+            "delay": 0,
+            "easing": "ease",
+            "opacityTo": 0,
+            "scale": 0.9
+          },
+          "preview": "/previews/anim_314.mp4",
+          "_source": {
+            "slug": "anim_314",
+            "sourcePage": "https://dich-fashion.webflow.io/#section-index",
+            "type": "css-keyframes",
+            "tech": "CSS keyframes",
+            "selector": ""
+          }
+        },
+        {
+          "id": "fade-variant-52",
+          "props": {
+            "duration": 1000,
+            "delay": 0,
+            "easing": "ease",
+            "opacityTo": 0
+          },
+          "preview": "/previews/anim_315.mp4",
+          "_source": {
+            "slug": "anim_315",
+            "sourcePage": "https://dich-fashion.webflow.io/#section-index",
+            "type": "css-keyframes",
+            "tech": "CSS keyframes",
+            "selector": ""
+          }
+        },
+        {
+          "id": "fade-variant-53",
+          "props": {
+            "duration": 1000,
+            "delay": 0,
+            "easing": "ease",
+            "opacityTo": 1
+          },
+          "preview": "/previews/anim_316.mp4",
+          "_source": {
+            "slug": "anim_316",
+            "sourcePage": "https://dich-fashion.webflow.io/#section-index",
+            "type": "css-keyframes",
+            "tech": "CSS keyframes",
+            "selector": ""
+          }
+        },
+        {
+          "id": "fade-variant-54",
+          "props": {
+            "duration": 1000,
+            "delay": 0,
+            "easing": "ease",
+            "opacityTo": 0.25
+          },
+          "preview": "/previews/anim_318.mp4",
+          "_source": {
+            "slug": "anim_318",
+            "sourcePage": "https://dich-fashion.webflow.io/#section-index",
+            "type": "css-keyframes",
+            "tech": "CSS keyframes",
+            "selector": ""
+          }
+        },
+        {
+          "id": "fade-variant-55",
+          "props": {
+            "duration": 1000,
+            "delay": 0,
+            "easing": "ease",
+            "opacityTo": 1
+          },
+          "preview": "/previews/anim_319.mp4",
+          "_source": {
+            "slug": "anim_319",
+            "sourcePage": "https://dich-fashion.webflow.io/#section-index",
+            "type": "css-keyframes",
+            "tech": "CSS keyframes",
+            "selector": ""
+          }
+        },
+        {
+          "id": "fade-variant-56",
+          "props": {
+            "duration": 1000,
+            "delay": 0,
+            "easing": "ease",
+            "opacityTo": 0.25
+          },
+          "preview": "/previews/anim_320.mp4",
+          "_source": {
+            "slug": "anim_320",
+            "sourcePage": "https://dich-fashion.webflow.io/#section-index",
+            "type": "css-keyframes",
+            "tech": "CSS keyframes",
+            "selector": ""
+          }
+        }
+      ],
+      "_source": {
+        "slug": "anim_024",
+        "sourcePage": "https://dich-fashion.webflow.io/",
+        "type": "css-keyframes",
+        "tech": "CSS keyframes",
+        "selector": ""
+      }
+    },
+    {
+      "id": "slide",
+      "label": "滑動",
+      "category": [
+        "entrance",
+        "movement"
+      ],
+      "props": {
+        "duration": 1000,
+        "delay": 0,
+        "easing": "ease",
+        "distance": "100%"
+      },
+      "defaults": {
+        "duration": 1000,
+        "delay": 0,
+        "easing": "ease",
+        "distance": "100%"
+      },
+      "code": {
+        "css": "",
+        "js": "\n// 基本 JavaScript 觸發\nelement.classList.add('active');"
+      },
+      "preview": "/previews/anim_029.mp4",
+      "tags": [
+        "fashion",
+        "css-keyframes"
+      ],
+      "variants": [
+        {
+          "id": "slide-variant-1",
+          "props": {
+            "duration": 1000,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_033.mp4",
+          "_source": {
+            "slug": "anim_033",
+            "sourcePage": "https://dich-fashion.webflow.io/",
+            "type": "css-keyframes",
+            "tech": "CSS keyframes",
+            "selector": ""
+          }
+        },
+        {
+          "id": "slide-variant-2",
+          "props": {
+            "duration": 1000,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_034.mp4",
+          "_source": {
+            "slug": "anim_034",
+            "sourcePage": "https://dich-fashion.webflow.io/",
+            "type": "css-keyframes",
+            "tech": "CSS keyframes",
+            "selector": ""
+          }
+        },
+        {
+          "id": "slide-variant-3",
+          "props": {
+            "duration": 1000,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_035.mp4",
+          "_source": {
+            "slug": "anim_035",
+            "sourcePage": "https://dich-fashion.webflow.io/",
+            "type": "css-keyframes",
+            "tech": "CSS keyframes",
+            "selector": ""
+          }
+        },
+        {
+          "id": "slide-variant-4",
+          "props": {
+            "duration": 1000,
+            "delay": 0,
+            "easing": "ease",
+            "distance": "100%"
+          },
+          "preview": "/previews/anim_086.mp4",
+          "_source": {
+            "slug": "anim_086",
+            "sourcePage": "https://dich-fashion.webflow.io/#",
+            "type": "css-keyframes",
+            "tech": "CSS keyframes",
+            "selector": ""
+          }
+        },
+        {
+          "id": "slide-variant-5",
+          "props": {
+            "duration": 1000,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_090.mp4",
+          "_source": {
+            "slug": "anim_090",
+            "sourcePage": "https://dich-fashion.webflow.io/#",
+            "type": "css-keyframes",
+            "tech": "CSS keyframes",
+            "selector": ""
+          }
+        },
+        {
+          "id": "slide-variant-6",
+          "props": {
+            "duration": 1000,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_091.mp4",
+          "_source": {
+            "slug": "anim_091",
+            "sourcePage": "https://dich-fashion.webflow.io/#",
+            "type": "css-keyframes",
+            "tech": "CSS keyframes",
+            "selector": ""
+          }
+        },
+        {
+          "id": "slide-variant-7",
+          "props": {
+            "duration": 1000,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_092.mp4",
+          "_source": {
+            "slug": "anim_092",
+            "sourcePage": "https://dich-fashion.webflow.io/#",
+            "type": "css-keyframes",
+            "tech": "CSS keyframes",
+            "selector": ""
+          }
+        },
+        {
+          "id": "slide-variant-8",
+          "props": {
+            "duration": 1000,
+            "delay": 0,
+            "easing": "ease",
+            "distance": "100%"
+          },
+          "preview": "/previews/anim_143.mp4",
+          "_source": {
+            "slug": "anim_143",
+            "sourcePage": "https://dich-fashion.webflow.io/oraniths",
+            "type": "css-keyframes",
+            "tech": "CSS keyframes",
+            "selector": ""
+          }
+        },
+        {
+          "id": "slide-variant-9",
+          "props": {
+            "duration": 1000,
+            "delay": 0,
+            "easing": "ease",
+            "distance": "100%"
+          },
+          "preview": "/previews/anim_193.mp4",
+          "_source": {
+            "slug": "anim_193",
+            "sourcePage": "https://dich-fashion.webflow.io/anturax",
+            "type": "css-keyframes",
+            "tech": "CSS keyframes",
+            "selector": ""
+          }
+        },
+        {
+          "id": "slide-variant-10",
+          "props": {
+            "duration": 1000,
+            "delay": 0,
+            "easing": "ease",
+            "distance": "100%"
+          },
+          "preview": "/previews/anim_243.mp4",
+          "_source": {
+            "slug": "anim_243",
+            "sourcePage": "https://dich-fashion.webflow.io/#section-collections",
+            "type": "css-keyframes",
+            "tech": "CSS keyframes",
+            "selector": ""
+          }
+        },
+        {
+          "id": "slide-variant-11",
+          "props": {
+            "duration": 1000,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_247.mp4",
+          "_source": {
+            "slug": "anim_247",
+            "sourcePage": "https://dich-fashion.webflow.io/#section-collections",
+            "type": "css-keyframes",
+            "tech": "CSS keyframes",
+            "selector": ""
+          }
+        },
+        {
+          "id": "slide-variant-12",
+          "props": {
+            "duration": 1000,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_248.mp4",
+          "_source": {
+            "slug": "anim_248",
+            "sourcePage": "https://dich-fashion.webflow.io/#section-collections",
+            "type": "css-keyframes",
+            "tech": "CSS keyframes",
+            "selector": ""
+          }
+        },
+        {
+          "id": "slide-variant-13",
+          "props": {
+            "duration": 1000,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_249.mp4",
+          "_source": {
+            "slug": "anim_249",
+            "sourcePage": "https://dich-fashion.webflow.io/#section-collections",
+            "type": "css-keyframes",
+            "tech": "CSS keyframes",
+            "selector": ""
+          }
+        },
+        {
+          "id": "slide-variant-14",
+          "props": {
+            "duration": 1000,
+            "delay": 0,
+            "easing": "ease",
+            "distance": "100%"
+          },
+          "preview": "/previews/anim_277.mp4",
+          "_source": {
+            "slug": "anim_277",
+            "sourcePage": "https://dich-fashion.webflow.io/404",
+            "type": "css-keyframes",
+            "tech": "CSS keyframes",
+            "selector": ""
+          }
+        },
+        {
+          "id": "slide-variant-15",
+          "props": {
+            "duration": 1000,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_280.mp4",
+          "_source": {
+            "slug": "anim_280",
+            "sourcePage": "https://dich-fashion.webflow.io/404",
+            "type": "css-keyframes",
+            "tech": "CSS keyframes",
+            "selector": ""
+          }
+        },
+        {
+          "id": "slide-variant-16",
+          "props": {
+            "duration": 1000,
+            "delay": 0,
+            "easing": "ease",
+            "distance": "100%"
+          },
+          "preview": "/previews/anim_317.mp4",
+          "_source": {
+            "slug": "anim_317",
+            "sourcePage": "https://dich-fashion.webflow.io/#section-index",
+            "type": "css-keyframes",
+            "tech": "CSS keyframes",
+            "selector": ""
+          }
+        },
+        {
+          "id": "slide-variant-17",
+          "props": {
+            "duration": 1000,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_321.mp4",
+          "_source": {
+            "slug": "anim_321",
+            "sourcePage": "https://dich-fashion.webflow.io/#section-index",
+            "type": "css-keyframes",
+            "tech": "CSS keyframes",
+            "selector": ""
+          }
+        },
+        {
+          "id": "slide-variant-18",
+          "props": {
+            "duration": 1000,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_322.mp4",
+          "_source": {
+            "slug": "anim_322",
+            "sourcePage": "https://dich-fashion.webflow.io/#section-index",
+            "type": "css-keyframes",
+            "tech": "CSS keyframes",
+            "selector": ""
+          }
+        },
+        {
+          "id": "slide-variant-19",
+          "props": {
+            "duration": 1000,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_323.mp4",
+          "_source": {
+            "slug": "anim_323",
+            "sourcePage": "https://dich-fashion.webflow.io/#section-index",
+            "type": "css-keyframes",
+            "tech": "CSS keyframes",
+            "selector": ""
+          }
+        }
+      ],
+      "_source": {
+        "slug": "anim_029",
+        "sourcePage": "https://dich-fashion.webflow.io/",
+        "type": "css-keyframes",
+        "tech": "CSS keyframes",
+        "selector": ""
+      }
+    },
+    {
+      "id": "generic-2",
+      "label": "通用動畫",
+      "category": [
+        "general"
+      ],
+      "props": {
+        "duration": 200,
+        "delay": 0,
+        "easing": "ease"
+      },
+      "defaults": {
+        "duration": 200,
+        "delay": 0,
+        "easing": "ease"
+      },
+      "code": {
+        "css": "",
+        "js": "gsap.to(lines, {\n        yPercent: -100,\n        duration: 0.2,\n        ease: \"ease\",\n        overwrite: true,\n      })"
+      },
+      "preview": "/previews/anim_036.mp4",
+      "tags": [
+        "fashion",
+        "gsap"
+      ],
+      "variants": [
+        {
+          "id": "generic-variant-1",
+          "props": {
+            "duration": 200,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_037.mp4",
+          "_source": {
+            "slug": "anim_037",
+            "sourcePage": "https://dich-fashion.webflow.io/",
+            "type": "gsap",
+            "tech": "GSAP",
+            "selector": ""
+          }
+        },
+        {
+          "id": "generic-variant-2",
+          "props": {
+            "duration": 1250,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_039.mp4",
+          "_source": {
+            "slug": "anim_039",
+            "sourcePage": "https://dich-fashion.webflow.io/",
+            "type": "gsap",
+            "tech": "GSAP",
+            "selector": ""
+          }
+        },
+        {
+          "id": "generic-variant-3",
+          "props": {
+            "duration": 1250,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_040.mp4",
+          "_source": {
+            "slug": "anim_040",
+            "sourcePage": "https://dich-fashion.webflow.io/",
+            "type": "gsap",
+            "tech": "GSAP",
+            "selector": ""
+          }
+        },
+        {
+          "id": "generic-variant-4",
+          "props": {
+            "duration": 1000,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_041.mp4",
+          "_source": {
+            "slug": "anim_041",
+            "sourcePage": "https://dich-fashion.webflow.io/",
+            "type": "custom-js",
+            "tech": "JavaScript 自訂",
+            "selector": ""
+          }
+        },
+        {
+          "id": "generic-variant-5",
+          "props": {
+            "duration": 1000,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_042.mp4",
+          "_source": {
+            "slug": "anim_042",
+            "sourcePage": "https://dich-fashion.webflow.io/",
+            "type": "custom-js",
+            "tech": "JavaScript 自訂",
+            "selector": ""
+          }
+        },
+        {
+          "id": "generic-variant-6",
+          "props": {
+            "duration": 1000,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_046.mp4",
+          "_source": {
+            "slug": "anim_046",
+            "sourcePage": "https://dich-fashion.webflow.io/",
+            "type": "custom-js",
+            "tech": "JavaScript 自訂",
+            "selector": ""
+          }
+        },
+        {
+          "id": "generic-variant-7",
+          "props": {
+            "duration": 1000,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_047.mp4",
+          "_source": {
+            "slug": "anim_047",
+            "sourcePage": "https://dich-fashion.webflow.io/",
+            "type": "custom-js",
+            "tech": "JavaScript 自訂",
+            "selector": ""
+          }
+        },
+        {
+          "id": "generic-variant-8",
+          "props": {
+            "duration": 1000,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_048.mp4",
+          "_source": {
+            "slug": "anim_048",
+            "sourcePage": "https://dich-fashion.webflow.io/",
+            "type": "custom-js",
+            "tech": "JavaScript 自訂",
+            "selector": ""
+          }
+        },
+        {
+          "id": "generic-variant-9",
+          "props": {
+            "duration": 1000,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_049.mp4",
+          "_source": {
+            "slug": "anim_049",
+            "sourcePage": "https://dich-fashion.webflow.io/",
+            "type": "custom-js",
+            "tech": "JavaScript 自訂",
+            "selector": ""
+          }
+        },
+        {
+          "id": "generic-variant-10",
+          "props": {
+            "duration": 1000,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_050.mp4",
+          "_source": {
+            "slug": "anim_050",
+            "sourcePage": "https://dich-fashion.webflow.io/",
+            "type": "custom-js",
+            "tech": "JavaScript 自訂",
+            "selector": ""
+          }
+        },
+        {
+          "id": "generic-variant-11",
+          "props": {
+            "duration": 1000,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_051.mp4",
+          "_source": {
+            "slug": "anim_051",
+            "sourcePage": "https://dich-fashion.webflow.io/",
+            "type": "custom-js",
+            "tech": "JavaScript 自訂",
+            "selector": ""
+          }
+        },
+        {
+          "id": "generic-variant-12",
+          "props": {
+            "duration": 1000,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_054.mp4",
+          "_source": {
+            "slug": "anim_054",
+            "sourcePage": "https://dich-fashion.webflow.io/",
+            "type": "custom-js",
+            "tech": "JavaScript 自訂",
+            "selector": ""
+          }
+        },
+        {
+          "id": "generic-variant-13",
+          "props": {
+            "duration": 1000,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_055.mp4",
+          "_source": {
+            "slug": "anim_055",
+            "sourcePage": "https://dich-fashion.webflow.io/",
+            "type": "custom-js",
+            "tech": "JavaScript 自訂",
+            "selector": ""
+          }
+        },
+        {
+          "id": "generic-variant-14",
+          "props": {
+            "duration": 200,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_093.mp4",
+          "_source": {
+            "slug": "anim_093",
+            "sourcePage": "https://dich-fashion.webflow.io/#",
+            "type": "gsap",
+            "tech": "GSAP",
+            "selector": ""
+          }
+        },
+        {
+          "id": "generic-variant-15",
+          "props": {
+            "duration": 200,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_094.mp4",
+          "_source": {
+            "slug": "anim_094",
+            "sourcePage": "https://dich-fashion.webflow.io/#",
+            "type": "gsap",
+            "tech": "GSAP",
+            "selector": ""
+          }
+        },
+        {
+          "id": "generic-variant-16",
+          "props": {
+            "duration": 1250,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_096.mp4",
+          "_source": {
+            "slug": "anim_096",
+            "sourcePage": "https://dich-fashion.webflow.io/#",
+            "type": "gsap",
+            "tech": "GSAP",
+            "selector": ""
+          }
+        },
+        {
+          "id": "generic-variant-17",
+          "props": {
+            "duration": 1250,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_097.mp4",
+          "_source": {
+            "slug": "anim_097",
+            "sourcePage": "https://dich-fashion.webflow.io/#",
+            "type": "gsap",
+            "tech": "GSAP",
+            "selector": ""
+          }
+        },
+        {
+          "id": "generic-variant-18",
+          "props": {
+            "duration": 1000,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_098.mp4",
+          "_source": {
+            "slug": "anim_098",
+            "sourcePage": "https://dich-fashion.webflow.io/#",
+            "type": "custom-js",
+            "tech": "JavaScript 自訂",
+            "selector": ""
+          }
+        },
+        {
+          "id": "generic-variant-19",
+          "props": {
+            "duration": 1000,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_099.mp4",
+          "_source": {
+            "slug": "anim_099",
+            "sourcePage": "https://dich-fashion.webflow.io/#",
+            "type": "custom-js",
+            "tech": "JavaScript 自訂",
+            "selector": ""
+          }
+        },
+        {
+          "id": "generic-variant-20",
+          "props": {
+            "duration": 1000,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_103.mp4",
+          "_source": {
+            "slug": "anim_103",
+            "sourcePage": "https://dich-fashion.webflow.io/#",
+            "type": "custom-js",
+            "tech": "JavaScript 自訂",
+            "selector": ""
+          }
+        },
+        {
+          "id": "generic-variant-21",
+          "props": {
+            "duration": 1000,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_104.mp4",
+          "_source": {
+            "slug": "anim_104",
+            "sourcePage": "https://dich-fashion.webflow.io/#",
+            "type": "custom-js",
+            "tech": "JavaScript 自訂",
+            "selector": ""
+          }
+        },
+        {
+          "id": "generic-variant-22",
+          "props": {
+            "duration": 1000,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_105.mp4",
+          "_source": {
+            "slug": "anim_105",
+            "sourcePage": "https://dich-fashion.webflow.io/#",
+            "type": "custom-js",
+            "tech": "JavaScript 自訂",
+            "selector": ""
+          }
+        },
+        {
+          "id": "generic-variant-23",
+          "props": {
+            "duration": 1000,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_106.mp4",
+          "_source": {
+            "slug": "anim_106",
+            "sourcePage": "https://dich-fashion.webflow.io/#",
+            "type": "custom-js",
+            "tech": "JavaScript 自訂",
+            "selector": ""
+          }
+        },
+        {
+          "id": "generic-variant-24",
+          "props": {
+            "duration": 1000,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_107.mp4",
+          "_source": {
+            "slug": "anim_107",
+            "sourcePage": "https://dich-fashion.webflow.io/#",
+            "type": "custom-js",
+            "tech": "JavaScript 自訂",
+            "selector": ""
+          }
+        },
+        {
+          "id": "generic-variant-25",
+          "props": {
+            "duration": 1000,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_108.mp4",
+          "_source": {
+            "slug": "anim_108",
+            "sourcePage": "https://dich-fashion.webflow.io/#",
+            "type": "custom-js",
+            "tech": "JavaScript 自訂",
+            "selector": ""
+          }
+        },
+        {
+          "id": "generic-variant-26",
+          "props": {
+            "duration": 1000,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_111.mp4",
+          "_source": {
+            "slug": "anim_111",
+            "sourcePage": "https://dich-fashion.webflow.io/#",
+            "type": "custom-js",
+            "tech": "JavaScript 自訂",
+            "selector": ""
+          }
+        },
+        {
+          "id": "generic-variant-27",
+          "props": {
+            "duration": 1000,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_112.mp4",
+          "_source": {
+            "slug": "anim_112",
+            "sourcePage": "https://dich-fashion.webflow.io/#",
+            "type": "custom-js",
+            "tech": "JavaScript 自訂",
+            "selector": ""
+          }
+        },
+        {
+          "id": "generic-variant-28",
+          "props": {
+            "duration": 200,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_148.mp4",
+          "_source": {
+            "slug": "anim_148",
+            "sourcePage": "https://dich-fashion.webflow.io/oraniths",
+            "type": "gsap",
+            "tech": "GSAP",
+            "selector": ""
+          }
+        },
+        {
+          "id": "generic-variant-29",
+          "props": {
+            "duration": 200,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_149.mp4",
+          "_source": {
+            "slug": "anim_149",
+            "sourcePage": "https://dich-fashion.webflow.io/oraniths",
+            "type": "gsap",
+            "tech": "GSAP",
+            "selector": ""
+          }
+        },
+        {
+          "id": "generic-variant-30",
+          "props": {
+            "duration": 1250,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_151.mp4",
+          "_source": {
+            "slug": "anim_151",
+            "sourcePage": "https://dich-fashion.webflow.io/oraniths",
+            "type": "gsap",
+            "tech": "GSAP",
+            "selector": ""
+          }
+        },
+        {
+          "id": "generic-variant-31",
+          "props": {
+            "duration": 1250,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_152.mp4",
+          "_source": {
+            "slug": "anim_152",
+            "sourcePage": "https://dich-fashion.webflow.io/oraniths",
+            "type": "gsap",
+            "tech": "GSAP",
+            "selector": ""
+          }
+        },
+        {
+          "id": "generic-variant-32",
+          "props": {
+            "duration": 1000,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_153.mp4",
+          "_source": {
+            "slug": "anim_153",
+            "sourcePage": "https://dich-fashion.webflow.io/oraniths",
+            "type": "custom-js",
+            "tech": "JavaScript 自訂",
+            "selector": ""
+          }
+        },
+        {
+          "id": "generic-variant-33",
+          "props": {
+            "duration": 1000,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_154.mp4",
+          "_source": {
+            "slug": "anim_154",
+            "sourcePage": "https://dich-fashion.webflow.io/oraniths",
+            "type": "custom-js",
+            "tech": "JavaScript 自訂",
+            "selector": ""
+          }
+        },
+        {
+          "id": "generic-variant-34",
+          "props": {
+            "duration": 1000,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_158.mp4",
+          "_source": {
+            "slug": "anim_158",
+            "sourcePage": "https://dich-fashion.webflow.io/oraniths",
+            "type": "custom-js",
+            "tech": "JavaScript 自訂",
+            "selector": ""
+          }
+        },
+        {
+          "id": "generic-variant-35",
+          "props": {
+            "duration": 1000,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_161.mp4",
+          "_source": {
+            "slug": "anim_161",
+            "sourcePage": "https://dich-fashion.webflow.io/oraniths",
+            "type": "custom-js",
+            "tech": "JavaScript 自訂",
+            "selector": ""
+          }
+        },
+        {
+          "id": "generic-variant-36",
+          "props": {
+            "duration": 1000,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_162.mp4",
+          "_source": {
+            "slug": "anim_162",
+            "sourcePage": "https://dich-fashion.webflow.io/oraniths",
+            "type": "custom-js",
+            "tech": "JavaScript 自訂",
+            "selector": ""
+          }
+        },
+        {
+          "id": "generic-variant-37",
+          "props": {
+            "duration": 200,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_198.mp4",
+          "_source": {
+            "slug": "anim_198",
+            "sourcePage": "https://dich-fashion.webflow.io/anturax",
+            "type": "gsap",
+            "tech": "GSAP",
+            "selector": ""
+          }
+        },
+        {
+          "id": "generic-variant-38",
+          "props": {
+            "duration": 200,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_199.mp4",
+          "_source": {
+            "slug": "anim_199",
+            "sourcePage": "https://dich-fashion.webflow.io/anturax",
+            "type": "gsap",
+            "tech": "GSAP",
+            "selector": ""
+          }
+        },
+        {
+          "id": "generic-variant-39",
+          "props": {
+            "duration": 1250,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_201.mp4",
+          "_source": {
+            "slug": "anim_201",
+            "sourcePage": "https://dich-fashion.webflow.io/anturax",
+            "type": "gsap",
+            "tech": "GSAP",
+            "selector": ""
+          }
+        },
+        {
+          "id": "generic-variant-40",
+          "props": {
+            "duration": 1250,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_202.mp4",
+          "_source": {
+            "slug": "anim_202",
+            "sourcePage": "https://dich-fashion.webflow.io/anturax",
+            "type": "gsap",
+            "tech": "GSAP",
+            "selector": ""
+          }
+        },
+        {
+          "id": "generic-variant-41",
+          "props": {
+            "duration": 1000,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_203.mp4",
+          "_source": {
+            "slug": "anim_203",
+            "sourcePage": "https://dich-fashion.webflow.io/anturax",
+            "type": "custom-js",
+            "tech": "JavaScript 自訂",
+            "selector": ""
+          }
+        },
+        {
+          "id": "generic-variant-42",
+          "props": {
+            "duration": 1000,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_204.mp4",
+          "_source": {
+            "slug": "anim_204",
+            "sourcePage": "https://dich-fashion.webflow.io/anturax",
+            "type": "custom-js",
+            "tech": "JavaScript 自訂",
+            "selector": ""
+          }
+        },
+        {
+          "id": "generic-variant-43",
+          "props": {
+            "duration": 1000,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_208.mp4",
+          "_source": {
+            "slug": "anim_208",
+            "sourcePage": "https://dich-fashion.webflow.io/anturax",
+            "type": "custom-js",
+            "tech": "JavaScript 自訂",
+            "selector": ""
+          }
+        },
+        {
+          "id": "generic-variant-44",
+          "props": {
+            "duration": 1000,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_211.mp4",
+          "_source": {
+            "slug": "anim_211",
+            "sourcePage": "https://dich-fashion.webflow.io/anturax",
+            "type": "custom-js",
+            "tech": "JavaScript 自訂",
+            "selector": ""
+          }
+        },
+        {
+          "id": "generic-variant-45",
+          "props": {
+            "duration": 1000,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_212.mp4",
+          "_source": {
+            "slug": "anim_212",
+            "sourcePage": "https://dich-fashion.webflow.io/anturax",
+            "type": "custom-js",
+            "tech": "JavaScript 自訂",
+            "selector": ""
+          }
+        },
+        {
+          "id": "generic-variant-46",
+          "props": {
+            "duration": 200,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_250.mp4",
+          "_source": {
+            "slug": "anim_250",
+            "sourcePage": "https://dich-fashion.webflow.io/#section-collections",
+            "type": "gsap",
+            "tech": "GSAP",
+            "selector": ""
+          }
+        },
+        {
+          "id": "generic-variant-47",
+          "props": {
+            "duration": 200,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_251.mp4",
+          "_source": {
+            "slug": "anim_251",
+            "sourcePage": "https://dich-fashion.webflow.io/#section-collections",
+            "type": "gsap",
+            "tech": "GSAP",
+            "selector": ""
+          }
+        },
+        {
+          "id": "generic-variant-48",
+          "props": {
+            "duration": 1250,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_253.mp4",
+          "_source": {
+            "slug": "anim_253",
+            "sourcePage": "https://dich-fashion.webflow.io/#section-collections",
+            "type": "gsap",
+            "tech": "GSAP",
+            "selector": ""
+          }
+        },
+        {
+          "id": "generic-variant-49",
+          "props": {
+            "duration": 1250,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_254.mp4",
+          "_source": {
+            "slug": "anim_254",
+            "sourcePage": "https://dich-fashion.webflow.io/#section-collections",
+            "type": "gsap",
+            "tech": "GSAP",
+            "selector": ""
+          }
+        },
+        {
+          "id": "generic-variant-50",
+          "props": {
+            "duration": 1000,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_255.mp4",
+          "_source": {
+            "slug": "anim_255",
+            "sourcePage": "https://dich-fashion.webflow.io/#section-collections",
+            "type": "custom-js",
+            "tech": "JavaScript 自訂",
+            "selector": ""
+          }
+        },
+        {
+          "id": "generic-variant-51",
+          "props": {
+            "duration": 1000,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_256.mp4",
+          "_source": {
+            "slug": "anim_256",
+            "sourcePage": "https://dich-fashion.webflow.io/#section-collections",
+            "type": "custom-js",
+            "tech": "JavaScript 自訂",
+            "selector": ""
+          }
+        },
+        {
+          "id": "generic-variant-52",
+          "props": {
+            "duration": 1000,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_260.mp4",
+          "_source": {
+            "slug": "anim_260",
+            "sourcePage": "https://dich-fashion.webflow.io/#section-collections",
+            "type": "custom-js",
+            "tech": "JavaScript 自訂",
+            "selector": ""
+          }
+        },
+        {
+          "id": "generic-variant-53",
+          "props": {
+            "duration": 1000,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_261.mp4",
+          "_source": {
+            "slug": "anim_261",
+            "sourcePage": "https://dich-fashion.webflow.io/#section-collections",
+            "type": "custom-js",
+            "tech": "JavaScript 自訂",
+            "selector": ""
+          }
+        },
+        {
+          "id": "generic-variant-54",
+          "props": {
+            "duration": 1000,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_262.mp4",
+          "_source": {
+            "slug": "anim_262",
+            "sourcePage": "https://dich-fashion.webflow.io/#section-collections",
+            "type": "custom-js",
+            "tech": "JavaScript 自訂",
+            "selector": ""
+          }
+        },
+        {
+          "id": "generic-variant-55",
+          "props": {
+            "duration": 1000,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_263.mp4",
+          "_source": {
+            "slug": "anim_263",
+            "sourcePage": "https://dich-fashion.webflow.io/#section-collections",
+            "type": "custom-js",
+            "tech": "JavaScript 自訂",
+            "selector": ""
+          }
+        },
+        {
+          "id": "generic-variant-56",
+          "props": {
+            "duration": 1000,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_264.mp4",
+          "_source": {
+            "slug": "anim_264",
+            "sourcePage": "https://dich-fashion.webflow.io/#section-collections",
+            "type": "custom-js",
+            "tech": "JavaScript 自訂",
+            "selector": ""
+          }
+        },
+        {
+          "id": "generic-variant-57",
+          "props": {
+            "duration": 1000,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_265.mp4",
+          "_source": {
+            "slug": "anim_265",
+            "sourcePage": "https://dich-fashion.webflow.io/#section-collections",
+            "type": "custom-js",
+            "tech": "JavaScript 自訂",
+            "selector": ""
+          }
+        },
+        {
+          "id": "generic-variant-58",
+          "props": {
+            "duration": 1000,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_268.mp4",
+          "_source": {
+            "slug": "anim_268",
+            "sourcePage": "https://dich-fashion.webflow.io/#section-collections",
+            "type": "custom-js",
+            "tech": "JavaScript 自訂",
+            "selector": ""
+          }
+        },
+        {
+          "id": "generic-variant-59",
+          "props": {
+            "duration": 1000,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_269.mp4",
+          "_source": {
+            "slug": "anim_269",
+            "sourcePage": "https://dich-fashion.webflow.io/#section-collections",
+            "type": "custom-js",
+            "tech": "JavaScript 自訂",
+            "selector": ""
+          }
+        },
+        {
+          "id": "generic-variant-60",
+          "props": {
+            "duration": 200,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_281.mp4",
+          "_source": {
+            "slug": "anim_281",
+            "sourcePage": "https://dich-fashion.webflow.io/404",
+            "type": "gsap",
+            "tech": "GSAP",
+            "selector": ""
+          }
+        },
+        {
+          "id": "generic-variant-61",
+          "props": {
+            "duration": 200,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_282.mp4",
+          "_source": {
+            "slug": "anim_282",
+            "sourcePage": "https://dich-fashion.webflow.io/404",
+            "type": "gsap",
+            "tech": "GSAP",
+            "selector": ""
+          }
+        },
+        {
+          "id": "generic-variant-62",
+          "props": {
+            "duration": 1000,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_285.mp4",
+          "_source": {
+            "slug": "anim_285",
+            "sourcePage": "https://dich-fashion.webflow.io/404",
+            "type": "custom-js",
+            "tech": "JavaScript 自訂",
+            "selector": ""
+          }
+        },
+        {
+          "id": "generic-variant-63",
+          "props": {
+            "duration": 1000,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_286.mp4",
+          "_source": {
+            "slug": "anim_286",
+            "sourcePage": "https://dich-fashion.webflow.io/404",
+            "type": "custom-js",
+            "tech": "JavaScript 自訂",
+            "selector": ""
+          }
+        },
+        {
+          "id": "generic-variant-64",
+          "props": {
+            "duration": 200,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_324.mp4",
+          "_source": {
+            "slug": "anim_324",
+            "sourcePage": "https://dich-fashion.webflow.io/#section-index",
+            "type": "gsap",
+            "tech": "GSAP",
+            "selector": ""
+          }
+        },
+        {
+          "id": "generic-variant-65",
+          "props": {
+            "duration": 200,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_325.mp4",
+          "_source": {
+            "slug": "anim_325",
+            "sourcePage": "https://dich-fashion.webflow.io/#section-index",
+            "type": "gsap",
+            "tech": "GSAP",
+            "selector": ""
+          }
+        },
+        {
+          "id": "generic-variant-66",
+          "props": {
+            "duration": 1250,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_327.mp4",
+          "_source": {
+            "slug": "anim_327",
+            "sourcePage": "https://dich-fashion.webflow.io/#section-index",
+            "type": "gsap",
+            "tech": "GSAP",
+            "selector": ""
+          }
+        },
+        {
+          "id": "generic-variant-67",
+          "props": {
+            "duration": 1250,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_328.mp4",
+          "_source": {
+            "slug": "anim_328",
+            "sourcePage": "https://dich-fashion.webflow.io/#section-index",
+            "type": "gsap",
+            "tech": "GSAP",
+            "selector": ""
+          }
+        },
+        {
+          "id": "generic-variant-68",
+          "props": {
+            "duration": 1000,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_329.mp4",
+          "_source": {
+            "slug": "anim_329",
+            "sourcePage": "https://dich-fashion.webflow.io/#section-index",
+            "type": "custom-js",
+            "tech": "JavaScript 自訂",
+            "selector": ""
+          }
+        },
+        {
+          "id": "generic-variant-69",
+          "props": {
+            "duration": 1000,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_330.mp4",
+          "_source": {
+            "slug": "anim_330",
+            "sourcePage": "https://dich-fashion.webflow.io/#section-index",
+            "type": "custom-js",
+            "tech": "JavaScript 自訂",
+            "selector": ""
+          }
+        },
+        {
+          "id": "generic-variant-70",
+          "props": {
+            "duration": 1000,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_334.mp4",
+          "_source": {
+            "slug": "anim_334",
+            "sourcePage": "https://dich-fashion.webflow.io/#section-index",
+            "type": "custom-js",
+            "tech": "JavaScript 自訂",
+            "selector": ""
+          }
+        },
+        {
+          "id": "generic-variant-71",
+          "props": {
+            "duration": 1000,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_335.mp4",
+          "_source": {
+            "slug": "anim_335",
+            "sourcePage": "https://dich-fashion.webflow.io/#section-index",
+            "type": "custom-js",
+            "tech": "JavaScript 自訂",
+            "selector": ""
+          }
+        },
+        {
+          "id": "generic-variant-72",
+          "props": {
+            "duration": 1000,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_336.mp4",
+          "_source": {
+            "slug": "anim_336",
+            "sourcePage": "https://dich-fashion.webflow.io/#section-index",
+            "type": "custom-js",
+            "tech": "JavaScript 自訂",
+            "selector": ""
+          }
+        },
+        {
+          "id": "generic-variant-73",
+          "props": {
+            "duration": 1000,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_337.mp4",
+          "_source": {
+            "slug": "anim_337",
+            "sourcePage": "https://dich-fashion.webflow.io/#section-index",
+            "type": "custom-js",
+            "tech": "JavaScript 自訂",
+            "selector": ""
+          }
+        },
+        {
+          "id": "generic-variant-74",
+          "props": {
+            "duration": 1000,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_338.mp4",
+          "_source": {
+            "slug": "anim_338",
+            "sourcePage": "https://dich-fashion.webflow.io/#section-index",
+            "type": "custom-js",
+            "tech": "JavaScript 自訂",
+            "selector": ""
+          }
+        },
+        {
+          "id": "generic-variant-75",
+          "props": {
+            "duration": 1000,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_339.mp4",
+          "_source": {
+            "slug": "anim_339",
+            "sourcePage": "https://dich-fashion.webflow.io/#section-index",
+            "type": "custom-js",
+            "tech": "JavaScript 自訂",
+            "selector": ""
+          }
+        },
+        {
+          "id": "generic-variant-76",
+          "props": {
+            "duration": 1000,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_342.mp4",
+          "_source": {
+            "slug": "anim_342",
+            "sourcePage": "https://dich-fashion.webflow.io/#section-index",
+            "type": "custom-js",
+            "tech": "JavaScript 自訂",
+            "selector": ""
+          }
+        },
+        {
+          "id": "generic-variant-77",
+          "props": {
+            "duration": 1000,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_343.mp4",
+          "_source": {
+            "slug": "anim_343",
+            "sourcePage": "https://dich-fashion.webflow.io/#section-index",
+            "type": "custom-js",
+            "tech": "JavaScript 自訂",
+            "selector": ""
+          }
+        }
+      ],
+      "_source": {
+        "slug": "anim_036",
+        "sourcePage": "https://dich-fashion.webflow.io/",
+        "type": "gsap",
+        "tech": "GSAP",
+        "selector": ""
+      }
+    },
+    {
+      "id": "fade-1",
+      "label": "淡入",
+      "category": [
+        "entrance"
+      ],
+      "props": {
+        "duration": 250,
+        "delay": 0,
+        "easing": "ease",
+        "opacityTo": 0
+      },
+      "defaults": {
+        "duration": 250,
+        "delay": 0,
+        "easing": "ease",
+        "opacityTo": 0
+      },
+      "code": {
+        "css": "\n.fade-animation {\n  opacity: 0;\n  transition: opacity 250ms ease;\n}\n.fade-animation.active {\n  opacity: 1;\n}",
+        "js": "gsap.to(preloaderBlack, {\n    opacity: 0,\n    duration: 0.25,\n    onComplete: ()"
+      },
+      "preview": "/previews/anim_038.mp4",
+      "tags": [
+        "fashion",
+        "gsap"
+      ],
+      "variants": [
+        {
+          "id": "fade-variant-1",
+          "props": {
+            "duration": 300,
+            "delay": 0,
+            "easing": "ease",
+            "opacityTo": 0
+          },
+          "preview": "/previews/anim_052.mp4",
+          "_source": {
+            "slug": "anim_052",
+            "sourcePage": "https://dich-fashion.webflow.io/",
+            "type": "gsap",
+            "tech": "GSAP",
+            "selector": ""
+          }
+        },
+        {
+          "id": "fade-variant-2",
+          "props": {
+            "duration": 300,
+            "delay": 0,
+            "easing": "ease",
+            "opacityTo": 1
+          },
+          "preview": "/previews/anim_053.mp4",
+          "_source": {
+            "slug": "anim_053",
+            "sourcePage": "https://dich-fashion.webflow.io/",
+            "type": "gsap",
+            "tech": "GSAP",
+            "selector": ""
+          }
+        },
+        {
+          "id": "fade-variant-3",
+          "props": {
+            "duration": 1000,
+            "delay": 0,
+            "easing": "ease",
+            "opacityTo": 0
+          },
+          "preview": "/previews/anim_056.mp4",
+          "_source": {
+            "slug": "anim_056",
+            "sourcePage": "https://dich-fashion.webflow.io/",
+            "type": "gsap",
+            "tech": "GSAP",
+            "selector": ""
+          }
+        },
+        {
+          "id": "fade-variant-4",
+          "props": {
+            "duration": 35,
+            "delay": 0,
+            "easing": "ease",
+            "opacityTo": 0
+          },
+          "preview": "/previews/anim_057.mp4",
+          "_source": {
+            "slug": "anim_057",
+            "sourcePage": "https://dich-fashion.webflow.io/",
+            "type": "gsap",
+            "tech": "GSAP",
+            "selector": ""
+          }
+        },
+        {
+          "id": "fade-variant-5",
+          "props": {
+            "duration": 250,
+            "delay": 0,
+            "easing": "ease",
+            "opacityTo": 0
+          },
+          "preview": "/previews/anim_095.mp4",
+          "_source": {
+            "slug": "anim_095",
+            "sourcePage": "https://dich-fashion.webflow.io/#",
+            "type": "gsap",
+            "tech": "GSAP",
+            "selector": ""
+          }
+        },
+        {
+          "id": "fade-variant-6",
+          "props": {
+            "duration": 300,
+            "delay": 0,
+            "easing": "ease",
+            "opacityTo": 0
+          },
+          "preview": "/previews/anim_109.mp4",
+          "_source": {
+            "slug": "anim_109",
+            "sourcePage": "https://dich-fashion.webflow.io/#",
+            "type": "gsap",
+            "tech": "GSAP",
+            "selector": ""
+          }
+        },
+        {
+          "id": "fade-variant-7",
+          "props": {
+            "duration": 300,
+            "delay": 0,
+            "easing": "ease",
+            "opacityTo": 1
+          },
+          "preview": "/previews/anim_110.mp4",
+          "_source": {
+            "slug": "anim_110",
+            "sourcePage": "https://dich-fashion.webflow.io/#",
+            "type": "gsap",
+            "tech": "GSAP",
+            "selector": ""
+          }
+        },
+        {
+          "id": "fade-variant-8",
+          "props": {
+            "duration": 1000,
+            "delay": 0,
+            "easing": "ease",
+            "opacityTo": 0
+          },
+          "preview": "/previews/anim_113.mp4",
+          "_source": {
+            "slug": "anim_113",
+            "sourcePage": "https://dich-fashion.webflow.io/#",
+            "type": "gsap",
+            "tech": "GSAP",
+            "selector": ""
+          }
+        },
+        {
+          "id": "fade-variant-9",
+          "props": {
+            "duration": 35,
+            "delay": 0,
+            "easing": "ease",
+            "opacityTo": 0
+          },
+          "preview": "/previews/anim_114.mp4",
+          "_source": {
+            "slug": "anim_114",
+            "sourcePage": "https://dich-fashion.webflow.io/#",
+            "type": "gsap",
+            "tech": "GSAP",
+            "selector": ""
+          }
+        },
+        {
+          "id": "fade-variant-10",
+          "props": {
+            "duration": 250,
+            "delay": 0,
+            "easing": "ease",
+            "opacityTo": 0
+          },
+          "preview": "/previews/anim_150.mp4",
+          "_source": {
+            "slug": "anim_150",
+            "sourcePage": "https://dich-fashion.webflow.io/oraniths",
+            "type": "gsap",
+            "tech": "GSAP",
+            "selector": ""
+          }
+        },
+        {
+          "id": "fade-variant-11",
+          "props": {
+            "duration": 300,
+            "delay": 0,
+            "easing": "ease",
+            "opacityTo": 0
+          },
+          "preview": "/previews/anim_159.mp4",
+          "_source": {
+            "slug": "anim_159",
+            "sourcePage": "https://dich-fashion.webflow.io/oraniths",
+            "type": "gsap",
+            "tech": "GSAP",
+            "selector": ""
+          }
+        },
+        {
+          "id": "fade-variant-12",
+          "props": {
+            "duration": 300,
+            "delay": 0,
+            "easing": "ease",
+            "opacityTo": 1
+          },
+          "preview": "/previews/anim_160.mp4",
+          "_source": {
+            "slug": "anim_160",
+            "sourcePage": "https://dich-fashion.webflow.io/oraniths",
+            "type": "gsap",
+            "tech": "GSAP",
+            "selector": ""
+          }
+        },
+        {
+          "id": "fade-variant-13",
+          "props": {
+            "duration": 1000,
+            "delay": 0,
+            "easing": "ease",
+            "opacityTo": 0
+          },
+          "preview": "/previews/anim_163.mp4",
+          "_source": {
+            "slug": "anim_163",
+            "sourcePage": "https://dich-fashion.webflow.io/oraniths",
+            "type": "gsap",
+            "tech": "GSAP",
+            "selector": ""
+          }
+        },
+        {
+          "id": "fade-variant-14",
+          "props": {
+            "duration": 35,
+            "delay": 0,
+            "easing": "ease",
+            "opacityTo": 0
+          },
+          "preview": "/previews/anim_164.mp4",
+          "_source": {
+            "slug": "anim_164",
+            "sourcePage": "https://dich-fashion.webflow.io/oraniths",
+            "type": "gsap",
+            "tech": "GSAP",
+            "selector": ""
+          }
+        },
+        {
+          "id": "fade-variant-15",
+          "props": {
+            "duration": 250,
+            "delay": 0,
+            "easing": "ease",
+            "opacityTo": 0
+          },
+          "preview": "/previews/anim_200.mp4",
+          "_source": {
+            "slug": "anim_200",
+            "sourcePage": "https://dich-fashion.webflow.io/anturax",
+            "type": "gsap",
+            "tech": "GSAP",
+            "selector": ""
+          }
+        },
+        {
+          "id": "fade-variant-16",
+          "props": {
+            "duration": 300,
+            "delay": 0,
+            "easing": "ease",
+            "opacityTo": 0
+          },
+          "preview": "/previews/anim_209.mp4",
+          "_source": {
+            "slug": "anim_209",
+            "sourcePage": "https://dich-fashion.webflow.io/anturax",
+            "type": "gsap",
+            "tech": "GSAP",
+            "selector": ""
+          }
+        },
+        {
+          "id": "fade-variant-17",
+          "props": {
+            "duration": 300,
+            "delay": 0,
+            "easing": "ease",
+            "opacityTo": 1
+          },
+          "preview": "/previews/anim_210.mp4",
+          "_source": {
+            "slug": "anim_210",
+            "sourcePage": "https://dich-fashion.webflow.io/anturax",
+            "type": "gsap",
+            "tech": "GSAP",
+            "selector": ""
+          }
+        },
+        {
+          "id": "fade-variant-18",
+          "props": {
+            "duration": 1000,
+            "delay": 0,
+            "easing": "ease",
+            "opacityTo": 0
+          },
+          "preview": "/previews/anim_213.mp4",
+          "_source": {
+            "slug": "anim_213",
+            "sourcePage": "https://dich-fashion.webflow.io/anturax",
+            "type": "gsap",
+            "tech": "GSAP",
+            "selector": ""
+          }
+        },
+        {
+          "id": "fade-variant-19",
+          "props": {
+            "duration": 35,
+            "delay": 0,
+            "easing": "ease",
+            "opacityTo": 0
+          },
+          "preview": "/previews/anim_214.mp4",
+          "_source": {
+            "slug": "anim_214",
+            "sourcePage": "https://dich-fashion.webflow.io/anturax",
+            "type": "gsap",
+            "tech": "GSAP",
+            "selector": ""
+          }
+        },
+        {
+          "id": "fade-variant-20",
+          "props": {
+            "duration": 250,
+            "delay": 0,
+            "easing": "ease",
+            "opacityTo": 0
+          },
+          "preview": "/previews/anim_252.mp4",
+          "_source": {
+            "slug": "anim_252",
+            "sourcePage": "https://dich-fashion.webflow.io/#section-collections",
+            "type": "gsap",
+            "tech": "GSAP",
+            "selector": ""
+          }
+        },
+        {
+          "id": "fade-variant-21",
+          "props": {
+            "duration": 300,
+            "delay": 0,
+            "easing": "ease",
+            "opacityTo": 0
+          },
+          "preview": "/previews/anim_266.mp4",
+          "_source": {
+            "slug": "anim_266",
+            "sourcePage": "https://dich-fashion.webflow.io/#section-collections",
+            "type": "gsap",
+            "tech": "GSAP",
+            "selector": ""
+          }
+        },
+        {
+          "id": "fade-variant-22",
+          "props": {
+            "duration": 300,
+            "delay": 0,
+            "easing": "ease",
+            "opacityTo": 1
+          },
+          "preview": "/previews/anim_267.mp4",
+          "_source": {
+            "slug": "anim_267",
+            "sourcePage": "https://dich-fashion.webflow.io/#section-collections",
+            "type": "gsap",
+            "tech": "GSAP",
+            "selector": ""
+          }
+        },
+        {
+          "id": "fade-variant-23",
+          "props": {
+            "duration": 1000,
+            "delay": 0,
+            "easing": "ease",
+            "opacityTo": 0
+          },
+          "preview": "/previews/anim_270.mp4",
+          "_source": {
+            "slug": "anim_270",
+            "sourcePage": "https://dich-fashion.webflow.io/#section-collections",
+            "type": "gsap",
+            "tech": "GSAP",
+            "selector": ""
+          }
+        },
+        {
+          "id": "fade-variant-24",
+          "props": {
+            "duration": 35,
+            "delay": 0,
+            "easing": "ease",
+            "opacityTo": 0
+          },
+          "preview": "/previews/anim_271.mp4",
+          "_source": {
+            "slug": "anim_271",
+            "sourcePage": "https://dich-fashion.webflow.io/#section-collections",
+            "type": "gsap",
+            "tech": "GSAP",
+            "selector": ""
+          }
+        },
+        {
+          "id": "fade-variant-25",
+          "props": {
+            "duration": 300,
+            "delay": 0,
+            "easing": "ease",
+            "opacityTo": 0
+          },
+          "preview": "/previews/anim_283.mp4",
+          "_source": {
+            "slug": "anim_283",
+            "sourcePage": "https://dich-fashion.webflow.io/404",
+            "type": "gsap",
+            "tech": "GSAP",
+            "selector": ""
+          }
+        },
+        {
+          "id": "fade-variant-26",
+          "props": {
+            "duration": 300,
+            "delay": 0,
+            "easing": "ease",
+            "opacityTo": 1
+          },
+          "preview": "/previews/anim_284.mp4",
+          "_source": {
+            "slug": "anim_284",
+            "sourcePage": "https://dich-fashion.webflow.io/404",
+            "type": "gsap",
+            "tech": "GSAP",
+            "selector": ""
+          }
+        },
+        {
+          "id": "fade-variant-27",
+          "props": {
+            "duration": 1000,
+            "delay": 0,
+            "easing": "ease",
+            "opacityTo": 0
+          },
+          "preview": "/previews/anim_287.mp4",
+          "_source": {
+            "slug": "anim_287",
+            "sourcePage": "https://dich-fashion.webflow.io/404",
+            "type": "gsap",
+            "tech": "GSAP",
+            "selector": ""
+          }
+        },
+        {
+          "id": "fade-variant-28",
+          "props": {
+            "duration": 35,
+            "delay": 0,
+            "easing": "ease",
+            "opacityTo": 0
+          },
+          "preview": "/previews/anim_288.mp4",
+          "_source": {
+            "slug": "anim_288",
+            "sourcePage": "https://dich-fashion.webflow.io/404",
+            "type": "gsap",
+            "tech": "GSAP",
+            "selector": ""
+          }
+        },
+        {
+          "id": "fade-variant-29",
+          "props": {
+            "duration": 250,
+            "delay": 0,
+            "easing": "ease",
+            "opacityTo": 0
+          },
+          "preview": "/previews/anim_326.mp4",
+          "_source": {
+            "slug": "anim_326",
+            "sourcePage": "https://dich-fashion.webflow.io/#section-index",
+            "type": "gsap",
+            "tech": "GSAP",
+            "selector": ""
+          }
+        },
+        {
+          "id": "fade-variant-30",
+          "props": {
+            "duration": 300,
+            "delay": 0,
+            "easing": "ease",
+            "opacityTo": 0
+          },
+          "preview": "/previews/anim_340.mp4",
+          "_source": {
+            "slug": "anim_340",
+            "sourcePage": "https://dich-fashion.webflow.io/#section-index",
+            "type": "gsap",
+            "tech": "GSAP",
+            "selector": ""
+          }
+        },
+        {
+          "id": "fade-variant-31",
+          "props": {
+            "duration": 300,
+            "delay": 0,
+            "easing": "ease",
+            "opacityTo": 1
+          },
+          "preview": "/previews/anim_341.mp4",
+          "_source": {
+            "slug": "anim_341",
+            "sourcePage": "https://dich-fashion.webflow.io/#section-index",
+            "type": "gsap",
+            "tech": "GSAP",
+            "selector": ""
+          }
+        },
+        {
+          "id": "fade-variant-32",
+          "props": {
+            "duration": 1000,
+            "delay": 0,
+            "easing": "ease",
+            "opacityTo": 0
+          },
+          "preview": "/previews/anim_344.mp4",
+          "_source": {
+            "slug": "anim_344",
+            "sourcePage": "https://dich-fashion.webflow.io/#section-index",
+            "type": "gsap",
+            "tech": "GSAP",
+            "selector": ""
+          }
+        },
+        {
+          "id": "fade-variant-33",
+          "props": {
+            "duration": 35,
+            "delay": 0,
+            "easing": "ease",
+            "opacityTo": 0
+          },
+          "preview": "/previews/anim_345.mp4",
+          "_source": {
+            "slug": "anim_345",
+            "sourcePage": "https://dich-fashion.webflow.io/#section-index",
+            "type": "gsap",
+            "tech": "GSAP",
+            "selector": ""
+          }
+        }
+      ],
+      "_source": {
+        "slug": "anim_038",
+        "sourcePage": "https://dich-fashion.webflow.io/",
+        "type": "gsap",
+        "tech": "GSAP",
+        "selector": ""
+      }
+    },
+    {
+      "id": "color-change",
+      "label": "顏色變化",
+      "category": [
+        "general"
+      ],
+      "props": {
+        "duration": 200,
+        "delay": 0,
+        "easing": "ease"
+      },
+      "defaults": {
+        "duration": 200,
+        "delay": 0,
+        "easing": "ease"
+      },
+      "code": {
+        "css": "",
+        "js": "gsap.to(dot1, {\n          backgroundColor: \"#A6A19D\",\n          duration: 0.2,\n          overwrite: \"auto\"\n        })"
+      },
+      "preview": "/previews/anim_043.mp4",
+      "tags": [
+        "fashion",
+        "gsap"
+      ],
+      "variants": [
+        {
+          "id": "color-change-variant-1",
+          "props": {
+            "duration": 200,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_044.mp4",
+          "_source": {
+            "slug": "anim_044",
+            "sourcePage": "https://dich-fashion.webflow.io/",
+            "type": "gsap",
+            "tech": "GSAP",
+            "selector": ""
+          }
+        },
+        {
+          "id": "color-change-variant-2",
+          "props": {
+            "duration": 200,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_045.mp4",
+          "_source": {
+            "slug": "anim_045",
+            "sourcePage": "https://dich-fashion.webflow.io/",
+            "type": "gsap",
+            "tech": "GSAP",
+            "selector": ""
+          }
+        },
+        {
+          "id": "color-change-variant-3",
+          "props": {
+            "duration": 200,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_100.mp4",
+          "_source": {
+            "slug": "anim_100",
+            "sourcePage": "https://dich-fashion.webflow.io/#",
+            "type": "gsap",
+            "tech": "GSAP",
+            "selector": ""
+          }
+        },
+        {
+          "id": "color-change-variant-4",
+          "props": {
+            "duration": 200,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_101.mp4",
+          "_source": {
+            "slug": "anim_101",
+            "sourcePage": "https://dich-fashion.webflow.io/#",
+            "type": "gsap",
+            "tech": "GSAP",
+            "selector": ""
+          }
+        },
+        {
+          "id": "color-change-variant-5",
+          "props": {
+            "duration": 200,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_102.mp4",
+          "_source": {
+            "slug": "anim_102",
+            "sourcePage": "https://dich-fashion.webflow.io/#",
+            "type": "gsap",
+            "tech": "GSAP",
+            "selector": ""
+          }
+        },
+        {
+          "id": "color-change-variant-6",
+          "props": {
+            "duration": 200,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_155.mp4",
+          "_source": {
+            "slug": "anim_155",
+            "sourcePage": "https://dich-fashion.webflow.io/oraniths",
+            "type": "gsap",
+            "tech": "GSAP",
+            "selector": ""
+          }
+        },
+        {
+          "id": "color-change-variant-7",
+          "props": {
+            "duration": 200,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_156.mp4",
+          "_source": {
+            "slug": "anim_156",
+            "sourcePage": "https://dich-fashion.webflow.io/oraniths",
+            "type": "gsap",
+            "tech": "GSAP",
+            "selector": ""
+          }
+        },
+        {
+          "id": "color-change-variant-8",
+          "props": {
+            "duration": 200,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_157.mp4",
+          "_source": {
+            "slug": "anim_157",
+            "sourcePage": "https://dich-fashion.webflow.io/oraniths",
+            "type": "gsap",
+            "tech": "GSAP",
+            "selector": ""
+          }
+        },
+        {
+          "id": "color-change-variant-9",
+          "props": {
+            "duration": 200,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_205.mp4",
+          "_source": {
+            "slug": "anim_205",
+            "sourcePage": "https://dich-fashion.webflow.io/anturax",
+            "type": "gsap",
+            "tech": "GSAP",
+            "selector": ""
+          }
+        },
+        {
+          "id": "color-change-variant-10",
+          "props": {
+            "duration": 200,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_206.mp4",
+          "_source": {
+            "slug": "anim_206",
+            "sourcePage": "https://dich-fashion.webflow.io/anturax",
+            "type": "gsap",
+            "tech": "GSAP",
+            "selector": ""
+          }
+        },
+        {
+          "id": "color-change-variant-11",
+          "props": {
+            "duration": 200,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_207.mp4",
+          "_source": {
+            "slug": "anim_207",
+            "sourcePage": "https://dich-fashion.webflow.io/anturax",
+            "type": "gsap",
+            "tech": "GSAP",
+            "selector": ""
+          }
+        },
+        {
+          "id": "color-change-variant-12",
+          "props": {
+            "duration": 200,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_257.mp4",
+          "_source": {
+            "slug": "anim_257",
+            "sourcePage": "https://dich-fashion.webflow.io/#section-collections",
+            "type": "gsap",
+            "tech": "GSAP",
+            "selector": ""
+          }
+        },
+        {
+          "id": "color-change-variant-13",
+          "props": {
+            "duration": 200,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_258.mp4",
+          "_source": {
+            "slug": "anim_258",
+            "sourcePage": "https://dich-fashion.webflow.io/#section-collections",
+            "type": "gsap",
+            "tech": "GSAP",
+            "selector": ""
+          }
+        },
+        {
+          "id": "color-change-variant-14",
+          "props": {
+            "duration": 200,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_259.mp4",
+          "_source": {
+            "slug": "anim_259",
+            "sourcePage": "https://dich-fashion.webflow.io/#section-collections",
+            "type": "gsap",
+            "tech": "GSAP",
+            "selector": ""
+          }
+        },
+        {
+          "id": "color-change-variant-15",
+          "props": {
+            "duration": 200,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_331.mp4",
+          "_source": {
+            "slug": "anim_331",
+            "sourcePage": "https://dich-fashion.webflow.io/#section-index",
+            "type": "gsap",
+            "tech": "GSAP",
+            "selector": ""
+          }
+        },
+        {
+          "id": "color-change-variant-16",
+          "props": {
+            "duration": 200,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_332.mp4",
+          "_source": {
+            "slug": "anim_332",
+            "sourcePage": "https://dich-fashion.webflow.io/#section-index",
+            "type": "gsap",
+            "tech": "GSAP",
+            "selector": ""
+          }
+        },
+        {
+          "id": "color-change-variant-17",
+          "props": {
+            "duration": 200,
+            "delay": 0,
+            "easing": "ease"
+          },
+          "preview": "/previews/anim_333.mp4",
+          "_source": {
+            "slug": "anim_333",
+            "sourcePage": "https://dich-fashion.webflow.io/#section-index",
+            "type": "gsap",
+            "tech": "GSAP",
+            "selector": ""
+          }
+        }
+      ],
+      "_source": {
+        "slug": "anim_043",
+        "sourcePage": "https://dich-fashion.webflow.io/",
+        "type": "gsap",
+        "tech": "GSAP",
+        "selector": ""
+      }
+    }
+  ]
+}
